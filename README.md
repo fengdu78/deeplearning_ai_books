@@ -29,7 +29,7 @@
 
 **视频教程地址：**<https://mooc.study.163.com/university/deeplearning_ai#/c>
 
-[笔记网站](www.ai-start.com)
+[笔记网站](http://www.ai-start.com)
 
 **此文档免费，请不要用于商业用途，可以自由传播。**
 
