@@ -29,8 +29,7 @@
 
 **视频教程地址：**<https://mooc.study.163.com/university/deeplearning_ai#/c>
 
-百度云地址：链接:https://yun.baidu.com/s/1o78mQHs 密码:j7nn
-深度学习视频教程（即Cousera上的深度学习课程，deeplearning.ai）和中文笔记
+[笔记网站](www.ai-start.com)
 
 **此文档免费，请不要用于商业用途，可以自由传播。**
 
