@@ -1,4 +1,4 @@
-*Coursera深度学习教程中文笔记**
+**Coursera深度学习教程中文笔记**
 
 课程概述
 
@@ -34,9 +34,7 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 （该视频从www.deeplearning.ai 网站下载，因众所周知的原因，国内用户观看某些在线视频非常不容易，故一些学者一起制作了离线视频，旨在方便国内用户个人学习使用，请勿用于商业用途。视频内嵌中英文字幕，推荐使用potplayer播放。版权属于吴恩达老师所有，若在线视频流畅，请到官方网站观看。）
 
-[笔记网站](http://www.ai-start.com)
-
-haiguang2000@qq.com
+[笔记网站(适合手机阅读)](http://www.ai-start.com)
 
 吴恩达老师的机器学习课程笔记和视频：https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes
 
@@ -44,7 +42,7 @@ haiguang2000@qq.com
 
 **赠人玫瑰，手有余香！**
 
-
+haiguang2000@qq.com
 
 # 深度学习笔记目录
 
@@ -278,7 +276,7 @@ haiguang2000@qq.com
 
 第一周 卷积神经网络(Foundations of Convolutional Neural Networks)
 
-2.1.1	计算机视觉（Computer vision）
+1.1	计算机视觉（Computer vision）
 
 1.2	边缘检测示例（Edge detection example）
 
@@ -301,6 +299,7 @@ haiguang2000@qq.com
 1.11 为什么使用卷积？（Why convolutions?）
 
 第二周 深度卷积网络：实例探究(Deep convolutional models: case studies)
+
 2.1 为什么要进行实例探究？（Why look at case studies?）
 
 2.2 经典网络（Classic networks）
@@ -324,6 +323,7 @@ haiguang2000@qq.com
 2.11 计算机视觉现状（The state of computer vision）	
 
 第三周 目标检测（Object detection）
+
 3.1 目标定位（Object localization）
 
 3.2 特征点检测（Landmark detection）
@@ -345,6 +345,7 @@ haiguang2000@qq.com
 3.10 候选区域（选修）（Region proposals (Optional)）
 
 第四周 特殊应用：人脸识别和神经风格转换（Special applications: Face recognition &Neural style transfer）
+
 4.1 什么是人脸识别？(What is face recognition?)
 
 4.2 One-Shot学习（One-shot learning）
@@ -395,6 +396,7 @@ haiguang2000@qq.com
 1.12 深层循环神经网络（Deep RNNs）
 
 第二周 自然语言处理与词嵌入（Natural Language Processing and Word Embeddings）
+
 2.1 词汇表征（Word Representation）
 
 2.2 使用词嵌入（Using Word Embeddings）
@@ -415,28 +417,29 @@ haiguang2000@qq.com
 
 2.10 词嵌入除偏（Debiasing Word Embeddings）
 
-第三周 序列模型和注意力机制]
-3.1 基础模型
+第三周 序列模型和注意力机制（Sequence models & Attention mechanism）
 
-3.2 选择最可能的句子
+3.1 基础模型（Basic Models）
 
-3.3 定向搜索
+3.2 选择最可能的句子（Picking the most likely sentence）
 
-3.4 改进定向搜索
+3.3 集束搜索（Beam Search）
 
-3.5 定向搜索的误差分析
+3.4 改进集束搜索（Refinements to Beam Search）
 
-3.6 Bleu 得分（选修）
+3.5 集束搜索的误差分析（Error analysis in beam search）
 
-3.7 注意力模型直观理解
+3.6 Bleu 得分（选修）（Bleu Score (optional)）
 
-3.8 注意力模型
+3.7 注意力模型直观理解（Attention Model Intuition）
 
-3.9 语音辨识
+3.8注意力模型（Attention Model）
 
-3.10 触发字检测
+3.9语音识别（Speech recognition）
 
-3.11 结论和致谢
+3.10触发字检测（Trigger Word Detection）
+
+3.11结论和致谢（Conclusion and thank you）
 
 人工智能大师访谈
 
