@@ -4,6 +4,6 @@
 
 [**zotero**使用说明](https://zhuanlan.zhihu.com/p/30899762)
 
-**备注：视频的百度云里也有这个资料**
+**备注：链接：https://pan.baidu.com/s/1ZWZubjAQhNOFmNsZUQyOYg 密码：sdvl**
 
 ![论文截图](论文截图.png)
