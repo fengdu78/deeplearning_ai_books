@@ -1,8 +1,8 @@
 **深度学习教程参考论文**
 
-吴恩达老师在课程中的代码作业，目前更新完前四课，文件名带original的是空白作业
+吴恩达老师在课程中的代码作业，目前更新完前四课，文件名带**original**的是空白作业
 
-因作业太大，故放在百度云。链接:https://yun.baidu.com/s/13taPOjUUppI8gexqmC2UcQ 密码:j7tf
+因作业太大，故放在百度云。链接：https://pan.baidu.com/s/1VamLMyvslZ_Fzk062_fo2A 密码：5mk3
 
 请关注更新。
 
