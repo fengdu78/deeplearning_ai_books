@@ -1,0 +1,1259 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#item_742">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Computer Science</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Simonyan</foaf:surname>
+                        <foaf:givenname>Karen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zisserman</foaf:surname>
+                        <foaf:givenname>Andrew</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_740"/>
+        <dc:subject>Computer Science - Computer Vision and Pattern Recognition</dc:subject>
+        <dc:date>2014</dc:date>
+        <dcterms:abstract>Abstract: In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision.</dcterms:abstract>
+        <dc:title>Very Deep Convolutional Networks for Large-Scale Image Recognition</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_740">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/740/Simonyan 和 Zisserman - 2014 - Very Deep Convolutional Networks for Large-Scale I.pdf"/>
+        <dc:title>Simonyan 和 Zisserman - 2014 - Very Deep Convolutional Networks for Large-Scale I.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_743">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Computer Science</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kingma</foaf:surname>
+                        <foaf:givenname>Diederik</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ba</foaf:surname>
+                        <foaf:givenname>Jimmy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_741"/>
+        <dc:subject>Computer Science - Learning</dc:subject>
+        <dc:date>2014</dc:date>
+        <dcterms:abstract>Abstract: We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.</dcterms:abstract>
+        <dc:title>Adam: A Method for Stochastic Optimization</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_741">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/741/Kingma 和 Ba - 2014 - Adam A Method for Stochastic Optimization.pdf"/>
+        <dc:title>Kingma 和 Ba - 2014 - Adam A Method for Stochastic Optimization.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_744">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schroff</foaf:surname>
+                        <foaf:givenname>Florian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kalenichenko</foaf:surname>
+                        <foaf:givenname>Dmitry</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Philbin</foaf:surname>
+                        <foaf:givenname>James</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_734"/>
+        <dc:subject>ieee computer society</dc:subject>
+        <bib:pages>815-823</bib:pages>
+        <dc:date>2015</dc:date>
+        <dcterms:abstract>Abstract: Despite significant recent advances in the field of face recognition, implementing face verification and recognition efficiently at scale presents serious challenges to current approaches. In this paper we present a system, called FaceNet, that directly learns a mapping from face images to a compact Euclidean space where distances directly correspond to a measure of face similarity. Once this space has been produced, tasks such as face recognition, verification and clustering can be easily implemented using standard techniques with FaceNet embeddings as feature vectors. Our method uses a deep convolutional network trained to directly optimize the embedding itself, rather than an intermediate bottleneck layer as in previous deep learning approaches. To train, we use triplets of roughly aligned matching / non-matching face patches generated using a novel online triplet mining method. The benefit of our approach is much greater representational efficiency: we achieve state-of-the-art face recognition performance using only 128-bytes per face. On the widely used Labeled Faces in the Wild (LFW) dataset, our system achieves a new record accuracy of 99.63%. On YouTube Faces DB it achieves 95.12%. Our system cuts the error rate in comparison to the best published result by 30% on both datasets. We also introduce the concept of harmonic embeddings, and a harmonic triplet loss, which describe different versions of face embeddings (produced by different networks) that are compatible to each other and allow for direct comparison between each other.</dcterms:abstract>
+        <dc:title>FaceNet: A Unified Embedding for Face Recognition and Clustering</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_734">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/734/Schroff 等。 - 2015 - FaceNet A Unified Embedding for Face Recognition .pdf"/>
+        <dc:title>Schroff 等。 - 2015 - FaceNet A Unified Embedding for Face Recognition .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_745">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Redmon</foaf:surname>
+                        <foaf:givenname>Joseph</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Divvala</foaf:surname>
+                        <foaf:givenname>Santosh</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Girshick</foaf:surname>
+                        <foaf:givenname>Ross</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Farhadi</foaf:surname>
+                        <foaf:givenname>Ali</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_735"/>
+        <dc:subject>ieee computer society</dc:subject>
+        <bib:pages>779-788</bib:pages>
+        <dc:date>2015</dc:date>
+        <dcterms:abstract>Abstract: We present YOLO, a new approach to object detection. Prior work on object detection repurposes classifiers to perform detection. Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance. Our unified architecture is extremely fast. Our base YOLO model processes images in real-time at 45 frames per second. A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. Compared to state-of-the-art detection systems, YOLO makes more localization errors but is far less likely to predict false detections where nothing exists. Finally, YOLO learns very general representations of objects. It outperforms all other detection methods, including DPM and R-CNN, by a wide margin when generalizing from natural images to artwork on both the Picasso Dataset and the People-Art Dataset.</dcterms:abstract>
+        <dc:title>You Only Look Once: Unified, Real-Time Object Detection</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_735">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/735/Redmon 等。 - 2015 - You Only Look Once Unified, Real-Time Object Dete.pdf"/>
+        <dc:title>Redmon 等。 - 2015 - You Only Look Once Unified, Real-Time Object Dete.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_746">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Computer Science</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gatys</foaf:surname>
+                        <foaf:givenname>Leon A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ecker</foaf:surname>
+                        <foaf:givenname>Alexander S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bethge</foaf:surname>
+                        <foaf:givenname>Matthias</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_736"/>
+        <dc:date>2015</dc:date>
+        <dcterms:abstract>Abstract: In fine art, especially painting, humans have mastered the skill to create unique visual experiences through composing a complex interplay between the content and style of an image. Thus far the algorithmic basis of this process is unknown and there exists no artificial system with similar capabilities. However, in other key areas of visual perception such as object and face recognition near-human performance was recently demonstrated by a class of biologically inspired vision models called Deep Neural Networks. Here we introduce an artificial system based on a Deep Neural Network that creates artistic images of high perceptual quality. The system uses neural representations to separate and recombine content and style of arbitrary images, providing a neural algorithm for the creation of artistic images. Moreover, in light of the striking similarities between performance-optimised artificial neural networks and biological vision, our work offers a path forward to an algorithmic understanding of how humans create and perceive artistic imagery.</dcterms:abstract>
+        <dc:title>A Neural Algorithm of Artistic Style</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_736">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/736/Gatys 等。 - 2015 - A Neural Algorithm of Artistic Style.pdf"/>
+        <dc:title>Gatys 等。 - 2015 - A Neural Algorithm of Artistic Style.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_747">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenname>Kaiming</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Xiangyu</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ren</foaf:surname>
+                        <foaf:givenname>Shaoqing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Jian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_737"/>
+        <dc:subject>ieee computer society</dc:subject>
+        <bib:pages>770-778</bib:pages>
+        <dc:date>2015</dc:date>
+        <dcterms:abstract>Abstract: Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers—8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC &amp; COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.</dcterms:abstract>
+        <dc:title>Deep Residual Learning for Image Recognition</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_737">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/737/He 等。 - 2015 - Deep Residual Learning for Image Recognition.pdf"/>
+        <dc:title>He 等。 - 2015 - Deep Residual Learning for Image Recognition.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_748">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Redmon</foaf:surname>
+                        <foaf:givenname>Joseph</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Farhadi</foaf:surname>
+                        <foaf:givenname>Ali</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_738"/>
+        <dc:subject>Computer Science - Computer Vision and Pattern Recognition</dc:subject>
+        <bib:pages>6517-6525</bib:pages>
+        <dc:date>2016</dc:date>
+        <dcterms:abstract>Abstract: We introduce YOLO9000, a state-of-the-art, real-time object detection system that can detect over 9000 object categories. First we propose various improvements to the YOLO detection method, both novel and drawn from prior work. The improved model, YOLOv2, is state-of-the-art on standard detection tasks like PASCAL VOC and COCO. At 67 FPS, YOLOv2 gets 76.8 mAP on VOC 2007. At 40 FPS, YOLOv2 gets 78.6 mAP, outperforming state-of-the-art methods like Faster RCNN with ResNet and SSD while still running significantly faster. Finally we propose a method to jointly train on object detection and classification. Using this method we train YOLO9000 simultaneously on the COCO detection dataset and the ImageNet classification dataset. Our joint training allows YOLO9000 to predict detections for object classes that don't have labelled detection data. We validate our approach on the ImageNet detection task. YOLO9000 gets 19.7 mAP on the ImageNet detection validation set despite only having detection data for 44 of the 200 classes. On the 156 classes not in COCO, YOLO9000 gets 16.0 mAP. But YOLO can detect more than just 200 classes; it predicts detections for more than 9000 different object categories. And it still runs in real-time.</dcterms:abstract>
+        <dc:title>YOLO9000: Better, Faster, Stronger</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_738">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/738/Redmon 和 Farhadi - 2016 - YOLO9000 Better, Faster, Stronger.pdf"/>
+        <dc:title>Redmon 和 Farhadi - 2016 - YOLO9000 Better, Faster, Stronger.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_749">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>IEEE Conference on Computer Vision and Pattern Recognition</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taigman</foaf:surname>
+                        <foaf:givenname>Yaniv</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenname>Ming</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ranzato</foaf:surname>
+                        <foaf:givenname>Marc'Aurelio</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wolf</foaf:surname>
+                        <foaf:givenname>Lior</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_739"/>
+        <dc:subject>3D face modeling</dc:subject>
+        <dc:subject>alignment step</dc:subject>
+        <dc:subject>deep neural network</dc:subject>
+        <dc:subject>DeepFace</dc:subject>
+        <dc:subject>face recognition</dc:subject>
+        <dc:subject>face representation</dc:subject>
+        <dc:subject>image representation</dc:subject>
+        <dc:subject>LFW dataset</dc:subject>
+        <dc:subject>neural nets</dc:subject>
+        <bib:pages>1701-1708</bib:pages>
+        <dc:date>2014</dc:date>
+        <dcterms:abstract>In modern face recognition, the conventional pipeline consists of four stages: detect =&gt; align =&gt; represent =&gt; classify. We revisit both the alignment step and the representation step by employing explicit 3D face modeling in order to apply a piecewise affine transformation, and derive a face representation from a nine-layer deep neural network. This deep network involves more than 120 million parameters using several locally connected layers without weight sharing, rather than the standard convolutional layers. Thus we trained it on the largest facial dataset to-date, an identity labeled dataset of four million facial images belonging to more than 4, 000 identities. The learned representations coupling the accurate model-based alignment with the large facial database generalize remarkably well to faces in unconstrained environments, even with a simple classifier. Our method reaches an accuracy of 97.35% on the Labeled Faces in the Wild (LFW) dataset, reducing the error of the current state of the art by more than 27%, closely approaching human-level performance.</dcterms:abstract>
+        <dc:title>DeepFace: Closing the Gap to Human-Level Performance in Face Verification</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_739">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/739/deepface-closing-the-gap-to-human-level-performance-in-face-verification.pdf"/>
+        <dc:title>deepface-closing-the-gap-to-human-level-performance-in-face-verification.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_768">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>International Conference on Neural Information Processing Systems</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ren</foaf:surname>
+                        <foaf:givenname>Shaoqing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenname>Kaiming</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Girshick</foaf:surname>
+                        <foaf:givenname>Ross</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Jian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_786"/>
+        <dc:subject>convolutional neural network</dc:subject>
+        <dc:subject>Object detection</dc:subject>
+        <dc:subject>region proposal</dc:subject>
+        <bib:pages>91-99</bib:pages>
+        <dc:date>2015</dc:date>
+        <dcterms:abstract>State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully-convolutional network that simultaneously predicts object bounds and objectness scores at each position. RPNs are trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. With a simple alternating optimization, RPN and Fast R-CNN can be trained to share convolutional features. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007 (73.2% mAP) and 2012 (70.4% mAP) using 300 proposals per image. The code will be released.</dcterms:abstract>
+        <dc:title>Faster R-CNN: towards real-time object detection with region proposal networks</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_786">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/786/Ren 等。 - 2015 - Faster R-CNN towards real-time object detection w.pdf"/>
+        <dc:title>Ren 等。 - 2015 - Faster R-CNN towards real-time object detection w.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_769">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the IEEE international conference on computer vision</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Girshick</foaf:surname>
+                        <foaf:givenname>Ross</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_787"/>
+        <bib:pages>1440–1448</bib:pages>
+        <dc:date>2015</dc:date>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Fast r-cnn</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_787">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/787/Girshick - 2015 - Fast r-cnn.pdf"/>
+        <dc:title>Girshick - 2015 - Fast r-cnn.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_782">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv preprint arXiv:1312.6229</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sermanet</foaf:surname>
+                        <foaf:givenname>Pierre</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eigen</foaf:surname>
+                        <foaf:givenname>David</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Xiang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mathieu</foaf:surname>
+                        <foaf:givenname>Michaël</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fergus</foaf:surname>
+                        <foaf:givenname>Rob</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>LeCun</foaf:surname>
+                        <foaf:givenname>Yann</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_791"/>
+        <dc:date>2013</dc:date>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Overfeat: Integrated recognition, localization and detection using convolutional networks</dc:title>
+        <z:shortTitle>Overfeat</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_791">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/791/Sermanet 等。 - 2013 - Overfeat Integrated recognition, localization and.pdf"/>
+        <dc:title>Sermanet 等。 - 2013 - Overfeat Integrated recognition, localization and.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_1012">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>European Conference on Computer Vision</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenname>Kaiming</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Xiangyu</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ren</foaf:surname>
+                        <foaf:givenname>Shaoqing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenname>Jian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1011"/>
+        <dc:subject>Computer Science - Computer Vision and Pattern Recognition</dc:subject>
+        <dc:subject>Computer Science - Learning</dc:subject>
+        <bib:pages>630-645</bib:pages>
+        <dc:date>2016</dc:date>
+        <dcterms:abstract>Deep residual networks have emerged as a family of extremely deep architectures showing compelling accuracy and nice convergence behaviors. In this paper, we analyze the propagation formulations behin</dcterms:abstract>
+        <dc:title>Identity Mappings in Deep Residual Networks</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1011">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1011/He 等。 - 2016 - Identity Mappings in Deep Residual Networks.pdf"/>
+        <dc:title>He 等。 - 2016 - Identity Mappings in Deep Residual Networks.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1088">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bolukbasi</foaf:surname>
+                        <foaf:givenname>Tolga</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chang</foaf:surname>
+                        <foaf:givenname>Kai-Wei</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zou</foaf:surname>
+                        <foaf:givenname>James</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saligrama</foaf:surname>
+                        <foaf:givenname>Venkatesh</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kalai</foaf:surname>
+                        <foaf:givenname>Adam</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1089"/>
+        <bib:pages>26</bib:pages>
+        <dc:date>2016</dc:date>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <dcterms:abstract>The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors which has been used in many machine learning and natural language processing tasks. We show that even word embeddings trained on Google News articles exhibit female/male gender stereotypes to a disturbing extent. This raises concerns because their widespread use, as we describe, often tends to amplify these biases. Geometrically, gender bias is ﬁrst shown to be captured by a direction in the word embedding. Second, gender neutral words are shown to be linearly separable from gender deﬁnition words in the word embedding. Using these properties, we provide a methodology for modifying an embedding to remove gender stereotypes, such as the association between between the words receptionist and female, while maintaining desired associations such as between the words queen and female. We deﬁne metrics to quantify both direct and indirect gender biases in embeddings, and develop algorithms to “debias” the embedding. Using crowd-worker evaluation as well as standard benchmarks, we empirically demonstrate that our algorithms signiﬁcantly reduce gender bias in embeddings while preserving the its useful properties such as the ability to cluster related concepts and to solve analogy tasks. The resulting embeddings can be used in applications without amplifying gender bias.</dcterms:abstract>
+        <dc:title>Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1089">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1089/Bolukbasi 等。 - Man is to Computer Programmer as Woman is to Homem.pdf"/>
+        <dc:title>Bolukbasi 等。 - Man is to Computer Programmer as Woman is to Homem.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1091">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Computer Science</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mikolov</foaf:surname>
+                        <foaf:givenname>Tomas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenname>Kai</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corrado</foaf:surname>
+                        <foaf:givenname>Greg</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dean</foaf:surname>
+                        <foaf:givenname>Jeffrey</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1090"/>
+        <dc:subject>Computer Science - Computation and Language</dc:subject>
+        <dc:date>2013</dc:date>
+        <dcterms:abstract>Abstract: We propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities.</dcterms:abstract>
+        <dc:title>Efficient Estimation of Word Representations in Vector Space</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1090">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1090/Mikolov 等。 - 2013 - Efficient Estimation of Word Representations in Ve.pdf"/>
+        <dc:title>Mikolov 等。 - 2013 - Efficient Estimation of Word Representations in Ve.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1093">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><prism:volume>26</prism:volume></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mikolov</foaf:surname>
+                        <foaf:givenname>Tomas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutskever</foaf:surname>
+                        <foaf:givenname>Ilya</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenname>Kai</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corrado</foaf:surname>
+                        <foaf:givenname>Greg</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dean</foaf:surname>
+                        <foaf:givenname>Jeffrey</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1116"/>
+        <dc:subject>Computer Science - Learning</dc:subject>
+        <dc:subject>Computer Science - Computation and Language</dc:subject>
+        <dc:subject>Statistics - Machine Learning</dc:subject>
+        <bib:pages>3111-3119</bib:pages>
+        <dc:date>2013</dc:date>
+        <dcterms:abstract>Abstract: The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling. An inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases. For example, the meanings of &quot;Canada&quot; and &quot;Air&quot; cannot be easily combined to obtain &quot;Air Canada&quot;. Motivated by this example, we present a simple method for finding phrases in text, and show that learning good vector representations for millions of phrases is possible.</dcterms:abstract>
+        <dc:title>Distributed Representations of Words and Phrases and their Compositionality</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1116">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1116/Mikolov 等。 - 2013 - Distributed Representations of Words and Phrases a.pdf"/>
+        <dc:title>Mikolov 等。 - 2013 - Distributed Representations of Words and Phrases a.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1094">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mikolov</foaf:surname>
+                        <foaf:givenname>Tomas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yih</foaf:surname>
+                        <foaf:givenname>Wen-tau</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zweig</foaf:surname>
+                        <foaf:givenname>Geoffrey</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1095"/>
+        <bib:pages>6</bib:pages>
+        <dc:date>2013</dc:date>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <dcterms:abstract>Continuous space language models have recently demonstrated outstanding results across a variety of tasks. In this paper, we examine the vector-space word representations that are implicitly learned by the input-layer weights. We ﬁnd that these representations are surprisingly good at capturing syntactic and semantic regularities in language, and that each relationship is characterized by a relation-speciﬁc vector offset. This allows vector-oriented reasoning based on the offsets between words. For example, the male/female relationship is automatically learned, and with the induced vector representations, “King Man + Woman” results in a vector very close to “Queen.” We demonstrate that the word vectors capture syntactic regularities by means of syntactic analogy questions (provided with this paper), and are able to correctly answer almost 40% of the questions. We demonstrate that the word vectors capture semantic regularities by using the vector offset method to answer SemEval-2012 Task 2 questions. Remarkably, this method outperforms the best previous systems.</dcterms:abstract>
+        <dc:title>Linguistic Regularities in Continuous Space Word Representations</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1095">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1095/Mikolov 等。 - Linguistic Regularities in Continuous Space Word R.pdf"/>
+        <dc:title>Mikolov 等。 - Linguistic Regularities in Continuous Space Word R.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://aclweb.org/anthology/W14-4012">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.3115/v1/W14-4012</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cho</foaf:surname>
+                        <foaf:givenname>Kyunghyun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Merrienboer</foaf:surname>
+                        <foaf:givenname>Bart</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bahdanau</foaf:surname>
+                        <foaf:givenname>Dzmitry</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bengio</foaf:surname>
+                        <foaf:givenname>Yoshua</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1097"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://aclweb.org/anthology/W14-4012</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>103-111</bib:pages>
+        <dc:date>2014</dc:date>
+        <dcterms:dateSubmitted>2018-03-21 15:44:24</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Neural machine translation is a relatively new approach to statistical machine translation based purely on neural networks. The neural machine translation models often consist of an encoder and a decoder. The encoder extracts a ﬁxed-length representation from a variable-length input sentence, and the decoder generates a correct translation from this representation. In this paper, we focus on analyzing the properties of the neural machine translation using two models; RNN Encoder–Decoder and a newly proposed gated recursive convolutional neural network. We show that the neural machine translation performs relatively well on short sentences without unknown words, but its performance degrades rapidly as the length of the sentence and the number of unknown words increase. Furthermore, we ﬁnd that the proposed gated recursive convolutional network learns a grammatical structure of a sentence automatically.</dcterms:abstract>
+        <dc:title>On the Properties of Neural Machine Translation: Encoder–Decoder Approaches</dc:title>
+        <z:shortTitle>On the Properties of Neural Machine Translation</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1097">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1097/Cho 等。 - 2014 - On the Properties of Neural Machine Translation E.pdf"/>
+        <dc:title>Cho 等。 - 2014 - On the Properties of Neural Machine Translation E.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1099">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Eprint Arxiv</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chung</foaf:surname>
+                        <foaf:givenname>Junyoung</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gulcehre</foaf:surname>
+                        <foaf:givenname>Caglar</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cho</foaf:surname>
+                        <foaf:givenname>Kyung Hyun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bengio</foaf:surname>
+                        <foaf:givenname>Yoshua</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1100"/>
+        <dc:subject>Computer Science - Learning</dc:subject>
+        <dc:subject>Computer Science - Neural and Evolutionary Computing</dc:subject>
+        <dc:date>2014</dc:date>
+        <dcterms:abstract>Abstract: In this paper we compare different types of recurrent units in recurrent neural networks (RNNs). Especially, we focus on more sophisticated units that implement a gating mechanism, such as a long short-term memory (LSTM) unit and a recently proposed gated recurrent unit (GRU). We evaluate these recurrent units on the tasks of polyphonic music modeling and speech signal modeling. Our experiments revealed that these advanced recurrent units are indeed better than more traditional recurrent units such as tanh units. Also, we found GRU to be comparable to LSTM.</dcterms:abstract>
+        <dc:title>Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1100">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1100/Chung 等。 - 2014 - Empirical Evaluation of Gated Recurrent Neural Net.pdf"/>
+        <dc:title>Chung 等。 - 2014 - Empirical Evaluation of Gated Recurrent Neural Net.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0899-7667,%201530-888X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hochreiter</foaf:surname>
+                        <foaf:givenname>Sepp</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schmidhuber</foaf:surname>
+                        <foaf:givenname>Jürgen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1102"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.mitpressjournals.org/doi/10.1162/neco.1997.9.8.1735</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1735-1780</bib:pages>
+        <dc:date>11/1997</dc:date>
+        <dcterms:dateSubmitted>2018-03-21 15:50:59</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Learning to store information over extended time intervals via recurrent backpropagation takes a very long time, mostly due to insu cient, decaying error back ow. We brie y review Hochreiter's 1991 analysis of this problem, then address it by introducing a novel, e cient, gradient-based method called \Long Short-Term Memory&quot; (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete time steps by enforcing constant error ow through \constant error carrousels&quot; within special units. Multiplicative gate units learn to open and close access to the constant error ow. LSTM is local in space and time; its computational complexity per time step and weight is O(1). Our experiments with arti cial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with RTRL, BPTT, Recurrent Cascade-Correlation, Elman nets, and Neural Sequence Chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, arti cial long time lag tasks that have never been solved by previous recurrent network algorithms.</dcterms:abstract>
+        <dc:title>Long Short-Term Memory</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0899-7667,%201530-888X">
+        <prism:volume>9</prism:volume>
+        <prism:number>8</prism:number>
+        <dc:title>Neural Computation</dc:title>
+        <dc:identifier>ISSN 0899-7667, 1530-888X</dc:identifier>
+        <dc:identifier>DOI 10.1162/neco.1997.9.8.1735</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1102">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1102/Hochreiter 和 Schmidhuber - 1997 - Long Short-Term Memory.pdf"/>
+        <dc:title>Hochreiter 和 Schmidhuber - 1997 - Long Short-Term Memory.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4799-5118-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4799-5118-5</dc:identifier>
+                <dc:identifier>DOI 10.1109/CVPR.2014.81</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>IEEE</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Girshick</foaf:surname>
+                        <foaf:givenname>Ross</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Donahue</foaf:surname>
+                        <foaf:givenname>Jeff</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Darrell</foaf:surname>
+                        <foaf:givenname>Trevor</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Malik</foaf:surname>
+                        <foaf:givenname>Jitendra</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1105"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6909475/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>580-587</bib:pages>
+        <dc:date>6/2014</dc:date>
+        <dcterms:dateSubmitted>2018-04-13 14:02:41</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Can a large convolutional neural network trained for whole-image classiﬁcation on ImageNet be coaxed into detecting objects in PASCAL? We show that the answer is yes, and that the resulting system is simple, scalable, and boosts mean average precision, relative to the venerable deformable part model, by more than 40% (achieving a ﬁnal mAP of 48% on VOC 2007). Our framework combines powerful computer vision techniques for generating bottomup region proposals with recent advances in learning highcapacity convolutional neural networks. We call the resulting system R-CNN: Regions with CNN features. The same framework is also competitive with state-of-the-art semantic segmentation methods, demonstrating its ﬂexibility. Beyond these results, we execute a battery of experiments that provide insight into what the network learns to represent, revealing a rich hierarchy of discriminative and often semantically meaningful features.</dcterms:abstract>
+        <dc:title>Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1105">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1105/Girshick 等。 - 2014 - Rich Feature Hierarchies for Accurate Object Detec.pdf"/>
+        <dc:title>Girshick 等。 - 2014 - Rich Feature Hierarchies for Accurate Object Detec.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_1106">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Farhadi</foaf:surname>
+                        <foaf:givenname>Joseph Redmon Ali</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1107"/>
+        <bib:pages>6</bib:pages>
+        <dc:date>2018</dc:date>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>We present some updates to YOLO! We made a bunch of little design changes to make it better. We also trained this new network that’s pretty swell. It’s a little bigger than last time but more accurate. It’s still fast though, don’t worry. At 320 × 320 YOLOv3 runs in 22 ms at 28.2 mAP, as accurate as SSD but three times faster. When we look at the old .5 IOU mAP detection metric YOLOv3 is quite good. It achieves 57.9 AP50 in 51 ms on a Titan X, compared to 57.5 AP50 in 198 ms by RetinaNet, similar performance but 3.8× faster. As always, all the code is online at https://pjreddie.com/yolo/.</dcterms:abstract>
+        <dc:title>YOLOv3: An Incremental Improvement</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1107">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1107/Farhadi - YOLOv3 An Incremental Improvement.pdf"/>
+        <dc:title>Farhadi - YOLOv3 An Incremental Improvement.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-3-319-10589-5%20978-3-319-10590-1">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>8689</prism:volume>
+                <dc:identifier>ISBN 978-3-319-10589-5 978-3-319-10590-1</dc:identifier>
+                <dc:title>Computer Vision – ECCV 2014</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cham</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fleet</foaf:surname>
+                        <foaf:givenname>David</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pajdla</foaf:surname>
+                        <foaf:givenname>Tomas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schiele</foaf:surname>
+                        <foaf:givenname>Bernt</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tuytelaars</foaf:surname>
+                        <foaf:givenname>Tinne</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zeiler</foaf:surname>
+                        <foaf:givenname>Matthew D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fergus</foaf:surname>
+                        <foaf:givenname>Rob</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1109"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-3-319-10590-1_53</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>818-833</bib:pages>
+        <dc:date>2014</dc:date>
+        <dc:description>DOI: 10.1007/978-3-319-10590-1_53</dc:description>
+        <dcterms:dateSubmitted>2018-04-14 01:31:44</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Large Convolutional Network models have recently demonstrated impressive classiﬁcation performance on the ImageNet benchmark Krizhevsky et al. [18]. However there is no clear understanding of why they perform so well, or how they might be improved. In this paper we explore both issues. We introduce a novel visualization technique that gives insight into the function of intermediate feature layers and the operation of the classiﬁer. Used in a diagnostic role, these visualizations allow us to ﬁnd model architectures that outperform Krizhevsky et al. on the ImageNet classiﬁcation benchmark. We also perform an ablation study to discover the performance contribution from diﬀerent model layers. We show our ImageNet model generalizes well to other datasets: when the softmax classiﬁer is retrained, it convincingly beats the current state-ofthe-art results on Caltech-101 and Caltech-256 datasets.</dcterms:abstract>
+        <dc:title>Visualizing and Understanding Convolutional Networks</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_1109">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1109/Zeiler 和 Fergus - 2014 - Visualizing and Understanding Convolutional Networ.pdf"/>
+        <dc:title>Zeiler 和 Fergus - 2014 - Visualizing and Understanding Convolutional Networ.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s11263-013-0620-5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0920-5691,%201573-1405"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Uijlings</foaf:surname>
+                        <foaf:givenname>J. R. R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van de Sande</foaf:surname>
+                        <foaf:givenname>K. E. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gevers</foaf:surname>
+                        <foaf:givenname>T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smeulders</foaf:surname>
+                        <foaf:givenname>A. W. M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1114"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s11263-013-0620-5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>154-171</bib:pages>
+        <dc:date>9/2013</dc:date>
+        <dcterms:dateSubmitted>2018-04-15 00:38:22</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>This paper addresses the problem of generating possible object locations for use in object recognition. We introduce Selective Search which combines the strength of both an exhaustive search and segmentation. Like segmentation, we use the image structure to guide our sampling process. Like exhaustive search, we aim to capture all possible object locations. Instead of a single technique to generate possible object locations, we diversify our search and use a variety of complementary image partitionings to deal with as many image conditions as possible. Our Selective Search results in a small set of data-driven, class-independent, high quality locations, yielding 99% recall and a Mean Average Best Overlap of 0.879 at 10,097 locations. The reduced number of locations compared to an exhaustive search enables the use of stronger machine learning techniques and stronger appearance models for object recognition. In this paper we show that our selective search enables the use of the powerful Bag-of-Words model for recognition. The Selective Search software is made publicly available 1.</dcterms:abstract>
+        <dc:title>Selective Search for Object Recognition</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0920-5691,%201573-1405">
+        <prism:volume>104</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>International Journal of Computer Vision</dc:title>
+        <dc:identifier>ISSN 0920-5691, 1573-1405</dc:identifier>
+        <dc:identifier>DOI 10.1007/s11263-013-0620-5</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1114">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1114/Uijlings 等。 - 2013 - Selective Search for Object Recognition.pdf"/>
+        <dc:title>Uijlings 等。 - 2013 - Selective Search for Object Recognition.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-60558-516-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-60558-516-1</dc:identifier>
+                <dc:identifier>DOI 10.1145/1553374.1553401</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ACM Press</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Daumé</foaf:surname>
+                        <foaf:givenname>Hal</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1115"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://portal.acm.org/citation.cfm?doid=1553374.1553401</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1-8</bib:pages>
+        <dc:date>2009</dc:date>
+        <dcterms:dateSubmitted>2018-04-15 00:38:20</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>We describe an adaptation and application of a search-based structured prediction algorithm “Searn” to unsupervised learning problems. We show that it is possible to reduce unsupervised learning to supervised learning and demonstrate a high-quality unsupervised shift-reduce parsing model. We additionally show a close connection between unsupervised Searn and expectation maximization. Finally, we demonstrate the eﬃcacy of a semi-supervised extension. The key idea that enables this is an application of the predict-self idea for unsupervised learning.</dcterms:abstract>
+        <dc:title>Unsupervised search-based structured prediction</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1115">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1115/Daumé - 2009 - Unsupervised search-based structured prediction.pdf"/>
+        <dc:title>Daumé - 2009 - Unsupervised search-based structured prediction.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-59593-383-6">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-59593-383-6</dc:identifier>
+                <dc:identifier>DOI 10.1145/1143844.1143891</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>ACM Press</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Graves</foaf:surname>
+                        <foaf:givenname>Alex</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fernández</foaf:surname>
+                        <foaf:givenname>Santiago</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gomez</foaf:surname>
+                        <foaf:givenname>Faustino</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schmidhuber</foaf:surname>
+                        <foaf:givenname>Jürgen</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1124"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://portal.acm.org/citation.cfm?doid=1143844.1143891</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>369-376</bib:pages>
+        <dc:date>2006</dc:date>
+        <dcterms:dateSubmitted>2018-04-16 15:11:04</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Many real-world sequence learning tasks require the prediction of sequences of labels from noisy, unsegmented input data. In speech recognition, for example, an acoustic signal is transcribed into words or sub-word units. Recurrent neural networks (RNNs) are powerful sequence learners that would seem well suited to such tasks. However, because they require pre-segmented training data, and post-processing to transform their outputs into label sequences, their applicability has so far been limited. This paper presents a novel method for training RNNs to label unsegmented sequences directly, thereby solving both problems. An experiment on the TIMIT speech corpus demonstrates its advantages over both a baseline HMM and a hybrid HMM-RNN.</dcterms:abstract>
+        <dc:title>Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks</dc:title>
+        <z:shortTitle>Connectionist temporal classification</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1124">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1124/Graves 等。 - 2006 - Connectionist temporal classification labelling u.pdf"/>
+        <dc:title>Graves 等。 - 2006 - Connectionist temporal classification labelling u.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://portal.acm.org/citation.cfm?doid=1073083.1073135">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.3115/1073083.1073135</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Papineni</foaf:surname>
+                        <foaf:givenname>Kishore</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roukos</foaf:surname>
+                        <foaf:givenname>Salim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ward</foaf:surname>
+                        <foaf:givenname>Todd</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenname>Wei-Jing</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1125"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://portal.acm.org/citation.cfm?doid=1073083.1073135</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>311</bib:pages>
+        <dc:date>2001</dc:date>
+        <dcterms:dateSubmitted>2018-04-16 14:12:04</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>BLEU: a method for automatic evaluation of machine translation</dc:title>
+        <z:shortTitle>BLEU</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1125">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1125/Papineni 等。 - 2001 - BLEU a method for automatic evaluation of machine.pdf"/>
+        <dc:title>Papineni 等。 - 2001 - BLEU a method for automatic evaluation of machine.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
