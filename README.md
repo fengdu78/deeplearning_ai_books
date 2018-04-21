@@ -18,6 +18,8 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 本人水平有限，如有公式、算法错误，请及时指出，发邮件给我。
 
+**笔记是根据视频和字幕写的，没有技术含量，只需要专注和严谨。**
+
 黄海广
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
