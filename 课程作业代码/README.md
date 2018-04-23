@@ -2,7 +2,9 @@
 
 吴恩达老师在课程中的代码作业，目前更新完前四课，文件名带**original**的是空白作业
 
-因作业太大，故放在百度云。链接：https://pan.baidu.com/s/1FjeYHaqoyGT2ODt0QeFAMw 密码：6f1e
+因作业太大，故放在百度云。链接：https://pan.baidu.com/s/1aHQoUW7OTxyHbm72tbzjgw 密码：kok5
 
 请关注更新。
+
+作业是同学们一起完成的，除了第五课最后一周外，其余已经测试过。
 
