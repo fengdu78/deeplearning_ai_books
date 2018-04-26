@@ -24,9 +24,9 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
 
-**主要编写人员：**黄海广、林兴木（第四所有底稿，第五课第一二周，第三周前三节）、祝彦森:（第三课所有底稿）、贺志尧（第五课第三周底稿）、王翔、胡瀚文、 余笑、 郑浩、李怀松、 朱越鹏、陈伟贺、 曹越、 路皓翔、邱牧宸、 唐天泽、 张浩、 陈志豪、 游忍、 泽霖、沈伟臣、 贾红顺、 时超、 陈哲、赵一帆、 胡潇杨、段希、于冲、张鑫倩
+**主要编写人员**：黄海广、林兴木（第四所有底稿，第五课第一二周，第三周前三节）、祝彦森:（第三课所有底稿）、贺志尧（第五课第三周底稿）、王翔、胡瀚文、 余笑、 郑浩、李怀松、 朱越鹏、陈伟贺、 曹越、 路皓翔、邱牧宸、 唐天泽、 张浩、 陈志豪、 游忍、 泽霖、沈伟臣、 贾红顺、 时超、 陈哲、赵一帆、 胡潇杨、段希、于冲、张鑫倩
 
-**参与编辑人员：**黄海广 陈康凯 石晴路[EdwinXiang](https://gitee.com/EdwinXiang) [uirboyan](https://gitee.com/uirboyan) 严凤龙**LeoTsui** 贺志尧 段希 陈瑶 林家泳 王翔 谢士晨 蒋鹏
+**参与编辑人员**：黄海广 陈康凯 石晴路[EdwinXiang](https://gitee.com/EdwinXiang) [uirboyan](https://gitee.com/uirboyan) 严凤龙**LeoTsui** 贺志尧 段希 陈瑶 林家泳 王翔 谢士晨 蒋鹏
 
 2018-04-14
 
