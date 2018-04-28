@@ -46,6 +46,8 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 haiguang2000@qq.com
 
+**转载请注明出处**：https://github.com/fengdu78/deeplearning_ai_books
+
 # 深度学习笔记目录
 
 ## 第一门课 神经网络和深度学习(Neural Networks and Deep Learning)

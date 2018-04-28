@@ -45,3 +45,5 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 haiguang2000@qq.com
 
 本文件夹的与**images**文件夹一起放在同一目录即可运行。
+
+转载请注明出处：https://github.com/fengdu78/deeplearning_ai_books
