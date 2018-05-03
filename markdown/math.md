@@ -327,9 +327,9 @@ $|A| = \prod_{i = 1}^{n}\lambda_{i}​$
 
 (3) 若$A$可逆，则$A^{*} = |A|A^{- 1},{(A^{*})}^{*} = \frac{1}{|A|}A$
 
-(4) 若$A$为$n$阶方阵，则：
+(4) 若$A​$为$n​$阶方阵，则：
 
-$r(A^{*}) =\{ \begin{matrix}  & n,\quad r(A) = n \\  & 1,\quad r(A) = n -1 \\  & 0,\quad r(A) < n - 1 \\ \end{matrix}$
+$r(A^*)=\begin{cases}n,\quad r(A)=n\\ 1,\quad r(A)=n-1\\ 0,\quad r(A)<n-1\end{cases}$
 
 **6.有关**$\mathbf{A}^{\mathbf{- 1}}$**的结论**
 
