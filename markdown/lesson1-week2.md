@@ -388,11 +388,11 @@ $\frac{dL(a,y)}{da}=-y/a+(1-y)/(1-a)$
 $\frac{dL}{dz}=a-y$ 。
 因为$\frac{dL(a,y)}{dz}=\frac{dL}{dz}=(\frac{dL}{da})\cdot (\frac{da}{dz})$，
 并且$\frac{da}{dz}=a\cdot (1-a)$，
-而 $\frac{dL}{da}=(-\frac{y}{a}+\frac{(1-y)}{(1-a)})$，
-因此将这两项相乘
-$dz=\frac{dL(a,y)}{dz}=\frac{dL}{dz}=(\frac{dL}{da})\cdot (a(1-a)(-\frac{y}{a}+\frac{(1-y)}{(1-a)}))=a-y$ 
-视频中为了简化推导过程，假设${{n}_{x}}$ 
-这个推导的过程就是我之前提到过的链式法则。如果你对微积分熟悉，放心地去推导整个求导过程，如果不熟悉微积分，你只需要知道$dz=(a-y)$已经计算好了。
+而 $\frac{dL}{da}=(-\frac{y}{a}+\frac{(1-y)}{(1-a)})$，因此将这两项相乘，得到：
+
+${dz} = \frac{{dL}(a,y)}{{dz}} = \frac{{dL}}{{dz}} = \left( \frac{{dL}}{{da}} \right) \cdot \left(\frac{{da}}{{dz}} \right) = ( - \frac{y}{a} + \frac{(1 - y)}{(1 - a)})\cdot a(1 - a) = a - y$
+
+视频中为了简化推导过程，假设${{n}_{x}}$ 这个推导的过程就是我之前提到过的链式法则。如果你对微积分熟悉，放心地去推导整个求导过程，如果不熟悉微积分，你只需要知道$dz=(a-y)$已经计算好了。
 
 现在进行最后一步反向推导，也就是计算$w$和$b$变化对代价函数$L$的影响，特别地，可以用:
 $d{{w}_{1}}=\frac{1}{m}\sum\limits_{i}^{m}{x_{1}^{(i)}}({{a}^{(i)}}-{{y}^{(i)}})$ 
