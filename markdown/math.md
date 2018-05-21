@@ -119,7 +119,7 @@ ${{{F}'}_{y}}(x,y)$分别表示$F(x,y)$对$x$和$y$的偏导数
 （6）莱布尼兹公式：若$u(x)\,,v(x)$均$n$阶可导，则
  ${{(uv)}^{(n)}}=\sum\limits_{i={0}}^{n}{c_{n}^{i}{{u}^{(i)}}{{v}^{(n-i)}}}$，其中${{u}^{({0})}}=u$，${{v}^{({0})}}=v$
 
-**9.微分中值定理，，泰勒公式**
+**9.微分中值定理，泰勒公式**
 
 **Th1:**(费马定理)
 
@@ -500,13 +500,13 @@ ${kλ},{aλ} + b,\lambda^{2},\lambda^{m},f(\lambda),\lambda,\lambda^{- 1},\frac{
 
 **3.矩阵可相似对角化的充分必要条件**
 
-(1)设$A$为$n$阶方阵，则$A$可对角化$\Leftrightarrow$对每个$k_{i}$重根特征值$\lambda_{i}$，有$nr(\lambda_{i}E - A) = k_{i}$
+(1)设$A$为$n$阶方阵，则$A$可对角化$\Leftrightarrow$对每个$k_{i}$重根特征值$\lambda_{i}$，有$n-r(\lambda_{i}E - A) = k_{i}$
 
 (2) 设$A$可对角化，则由$P^{- 1}{AP} = \Lambda,$有$A = {PΛ}P^{-1}$，从而$A^{n} = P\Lambda^{n}P^{- 1}$
 
 (3) 重要结论
 
-1) 若$A \sim B,C \sim D$，则$\begin{bmatrix}  A & O \\ O & C \\\end{bmatrix} \sim \begin{bmatrix} B & O \\  O & D \\\end{bmatrix}$.
+1) 若$A \sim B,C \sim D​$，则$\begin{bmatrix}  A & O \\ O & C \\\end{bmatrix} \sim \begin{bmatrix} B & O \\  O & D \\\end{bmatrix}​$.
 
 2) 若$A \sim B$，则$f(A) \sim f(B),\left| f(A) \right| \sim \left| f(B)\right|$，其中$f(A)$为关于$n$阶方阵$A$的多项式。
 
