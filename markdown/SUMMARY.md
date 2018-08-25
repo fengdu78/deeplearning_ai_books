@@ -34,7 +34,7 @@
 
 2.7 计算图（Computation Graph）
 
-2.8 计算图导数（Derivatives with a Computation Graph） 
+2.8 使用计算图求导数（Derivatives with a Computation Graph） 
 
 2.9 逻辑回归的梯度下降（Logistic Regression Gradient Descent） 
 
@@ -100,7 +100,7 @@
 
 ## 第二门课 改善深层神经网络：超参数调试、正则化以及优化(Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization)
 
-[第一周：深度学习的实用层面(Practical aspects of Deep Learning) ](lesson2-week1.md)
+[第一周：深度学习的实践层面(Practical aspects of Deep Learning) ](lesson2-week1.md)
 
 1.1 训练，验证，测试集（Train / Dev / Test sets） 
 
@@ -122,7 +122,7 @@
 
 1.10 梯度消失/梯度爆炸（Vanishing / Exploding gradients）
 
-1.11 神经网络的权重初始化（Weight Initialization for Deep NetworksVanishing /Exploding gradients） 
+1.11 神经网络的权重初始化（Weight Initialization for Deep Networks） 
 
 1.12 梯度的数值逼近（Numerical approximation of gradients）
 
@@ -158,7 +158,7 @@
 
 3.2 为超参数选择和适合范围（Using an appropriate scale to pick hyperparameters）
 
-3.3 超参数训练的实践：Pandas vs. Caviar（Hyperparameters tuning in practice: Pandas vs. Caviar）
+3.3 超参数调试实践：Pandas vs. Caviar（Hyperparameters tuning in practice: Pandas vs. Caviar）
 
 3.4 网络中的正则化激活函数（Normalizing activations in a network） 
 
@@ -212,9 +212,9 @@
 
 2.3 快速搭建你的第一个系统，并进行迭代(Build your first system quickly, then iterate) 
 
-2.4 在不同的分布上的训练集和测试集 (Training and testing on different distributions) 
+2.4 使用来自不同分布的数据，进行训练和测试 (Training and testing on different distributions) 
 
-2.5 数据分布不匹配的偏差与方差分析 (Bias and Variance with mismatched data distributions) 
+2.5 数据分布不匹配时，偏差与方差的分析 (Bias and Variance with mismatched data distributions) 
 
 2.6 处理数据不匹配问题(Addressing data mismatch) 
 
@@ -256,7 +256,7 @@
 
 2.2 经典网络（Classic networks）
 
-2.3 残差网络（Residual Networks (ResNets)）
+2.3 残差网络(ResNets)（Residual Networks (ResNets)）
 
 2.4 残差网络为什么有用？（Why ResNets work?）	
 
@@ -270,7 +270,7 @@
 
 2.9 迁移学习（Transfer Learning）	
 
-2.10 数据扩充（Data augmentation）	
+2.10 数据增强（Data augmentation）	
 
 2.11 计算机视觉现状（The state of computer vision）	
 
@@ -281,7 +281,7 @@
 
 3.3 目标检测（Object detection）
 
-3.4 卷积的滑动窗口实现（Convolutional implementation of sliding windows）
+3.4 滑动窗口的卷积实现（Convolutional implementation of sliding windows）
 
 3.5 Bounding Box预测（Bounding box predictions）
 
@@ -304,11 +304,11 @@
 
 4.4 Triplet 损失（Triplet 损失）
 
-4.5 面部验证与二分类（Face verification and binary classification）
+4.5 人脸验证与二分类（Face verification and binary classification）
 
-4.6 什么是神经风格转换？（What is neural style transfer?）
+4.6 什么是神经风格迁移？（What is neural style transfer?）
 
-4.7 什么是深度卷积网络？（What are deep ConvNets learning?）
+4.7 CNN特征可视化（What are deep ConvNets learning?）
 
 4.8 代价函数（Cost function）
 

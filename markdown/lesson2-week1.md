@@ -1,6 +1,6 @@
 # 第二门课 改善深层神经网络：超参数调试、正则化以及优化(Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization)
 
-第一周：深度学习的实用层面(Practical aspects of Deep Learning)
+第一周：深度学习的实践层面(Practical aspects of Deep Learning)
 --------------------------------------------------------------
 [TOC]
 ### 1.1 训练，验证，测试集（Train / Dev / Test sets）

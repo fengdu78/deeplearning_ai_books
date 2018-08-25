@@ -125,7 +125,7 @@
 
 不过，庆幸的是，计算成本问题已经有了很好的解决方案，大大提高了卷积层上应用滑动窗口目标检测器的效率，关于它的具体实现，我们下节课再讲。
 
-### 3.4 卷积的滑动窗口实现（Convolutional implementation of sliding windows）
+### 3.4 滑动窗口的卷积实现（Convolutional implementation of sliding windows）
 
 上节课，我们学习了如何通过卷积网络实现滑动窗口对象检测算法，但效率很低。这节课我们讲讲如何在卷积层上应用这个算法。
 

@@ -265,7 +265,7 @@ $\frac{\partial J(w,b)}{\partial b}$  就是函数$J(w,b)$对$b$ 求偏导，在
 
 
 
-### 2.8 计算图的导数计算（Derivatives with a Computation Graph）
+### 2.8 使用计算图求导数（Derivatives with a Computation Graph）
 
 在上一个视频中，我们看了一个例子使用流程计算图来计算函数J。现在我们清理一下流程图的描述，看看你如何利用它计算出函数$J$的导数。
 
