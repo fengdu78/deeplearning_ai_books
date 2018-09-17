@@ -2,21 +2,16 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>SUMMARY.md</title><link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}#write, body { height: auto; }
-#write, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write ol, #write p, #write ul { position: relative; }
-#write, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
-#write, pre { white-space: pre-wrap; }
-.CodeMirror, .md-fences, table { text-align: left; }
-.md-reset, a:active, a:hover { outline: 0px; }
-.md-reset, .md-toc-item a { text-decoration: none; }
-.MathJax_SVG, .md-reset { float: none; direction: ltr; }
-:root { --bg-color:#ffffff; --text-color:#333333; }
+<title>SUMMARY</title><link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
-.in-text-selection, ::selection { background: rgb(181, 214, 252); text-shadow: none; }
-#write { margin: 0px auto; word-break: normal; word-wrap: break-word; padding-bottom: 70px; overflow-x: visible; }
-.first-line-indent #write p .md-line { text-indent: 0px; }
-.first-line-indent #write li, .first-line-indent #write p, .first-line-indent #write p .md-line:first-child { text-indent: 2em; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; padding-bottom: 70px; overflow-x: visible; }
+.first-line-indent #write div, .first-line-indent #write li, .first-line-indent #write p { text-indent: 2em; }
+.first-line-indent #write div :not(p):not(div), .first-line-indent #write div.md-htmlblock-container, .first-line-indent #write p *, .first-line-indent pre { text-indent: 0px; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) {
@@ -24,84 +19,93 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
   .CodeMirror-gutters { display: none !important; }
 }
-#write > blockquote:first-child, #write > div:first-child, #write > ol:first-child, #write > p:first-child, #write > pre:first-child, #write > table:first-child, #write > ul:first-child { margin-top: 30px; }
-#write li > table:first-child { margin-top: -20px; }
+#write > blockquote:first-child, #write > div:first-child, #write > figure:first-child, #write > ol:first-child, #write > p:first-child, #write > pre:first-child, #write > ul:first-child { margin-top: 30px; }
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; }
 button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
 h3 { font-size: 1.6rem; }
 h4 { font-size: 1.4rem; }
 h5 { font-size: 1.2rem; }
 h6 { font-size: 1rem; }
-p { -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
-.mathjax-block { margin-top: 0px; margin-bottom: 0px; -webkit-margin-before: 0px; -webkit-margin-after: 0px; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
-#write > figure:first-child { margin-top: 16px; }
-figure { overflow-x: auto; margin: -8px 0px 0px -8px; max-width: calc(100% + 16px); padding: 8px; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
-table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; }
-.CodeMirror-line, .md-fences { break-inside: avoid; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 80px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; margin-right: 4px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
 .CodeMirror-lines { padding: 0px; }
 div.hr:focus { cursor: none; }
-.md-fences { font-size: 0.9rem; display: block; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
 .md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
-.md-fences .CodeMirror.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
-.md-fences.mock-cm { white-space: pre-wrap; }
-.show-fences-line-number .md-fences { padding-left: 0px; }
-.show-fences-line-number .md-fences.mock-cm { padding-left: 40px; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; vertical-align: top; background: 0px 0px; text-shadow: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; }
-.md-toc-inner, a img, img a { cursor: pointer; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
 li { margin: 0px; position: relative; }
 blockquote > :last-child { margin-bottom: 0px; }
-blockquote > :first-child { margin-top: 0px; }
-.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: nowrap; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
   #write { margin-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
-  h1, h2, h3, h4, h5, h6 { break-after: avoid-page; orphans: 2; }
-  p { orphans: 4; }
   html.blink-to-pdf { font-size: 13px; }
   .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   @page { margin: 20mm 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
 pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > img:only-child { display: block; margin: auto; }
-.md-line > .md-image:only-child, p > .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
-.mathjax-block:not(:empty)::after, .md-toc-content::after, .md-toc::after { display: none; }
+p > .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
-.mathjax-block { white-space: pre; overflow: hidden; width: 100%; }
-p + .mathjax-block { margin-top: -1.143rem; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); }
 .math { font-size: 1rem; }
 .md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
-.MathJax_SVG, .mathjax-block .MathJax_SVG_Display { text-indent: 0px; max-width: none; max-height: none; min-height: 0px; }
 .md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
 .md-toc-inner:hover { }
-.md-toc-inner { display: inline-block; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
 .md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
 .md-toc-h2 .md-toc-inner { margin-left: 2em; }
 .md-toc-h3 .md-toc-inner { margin-left: 4em; }
@@ -118,21 +122,27 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .footnote-line a:not(.reversefootnote) { color: inherit; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
-code, pre, tt { font-family: var(--monospace); }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; }
-a.md-print-anchor { border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
-.mathjax-block .MathJax_SVG_Display { text-align: center; margin: 1em 0px; position: relative; min-width: 100%; width: auto; display: block !important; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
-.MathJax_SVG .MJX-monospace { font-family: monospace; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
 .MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; min-width: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
 .MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
-.md-diagram-panel > svg, [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
 [lang="mermaid"] .node text { font-size: 1rem; }
 table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
 
 
 :root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
@@ -163,7 +173,7 @@ h5 { font-size: 1em; }
 h6 { font-size: 1em; color: rgb(119, 119, 119); }
 p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
 li > ol, li > ul { margin: 0px; }
-hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border-width: 0px 0px 1px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-left-color: initial; border-image: initial; overflow: hidden; box-sizing: content-box; border-bottom-color: rgb(221, 221, 221); }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
 body > h2:first-child { margin-top: 0px; padding-top: 0px; }
 body > h1:first-child { margin-top: 0px; padding-top: 0px; }
 body > h1:first-child + h2 { margin-top: 0px; padding-top: 0px; }
@@ -174,17 +184,19 @@ li p.first { display: inline-block; }
 ul, ol { padding-left: 30px; }
 ul:first-child, ol:first-child { margin-top: 0px; }
 ul:last-child, ol:last-child { margin-bottom: 0px; }
-blockquote { border-left: 4px solid rgb(221, 221, 221); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
 blockquote blockquote { padding-right: 0px; }
 table { padding: 0px; word-break: initial; }
-table tr { border-top: 1px solid rgb(204, 204, 204); margin: 0px; padding: 0px; }
-table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
-table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
-table tr td { border: 1px solid rgb(204, 204, 204); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
 table tr th:first-child, table tr td:first-child { margin-top: 0px; }
 table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
-.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); }
-.md-fences, code, tt { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-radius: 3px; font-family: Consolas, "Liberation Mono", Courier, monospace; padding: 2px 4px 0px; font-size: 0.9em; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 4px 2px; }
 .md-fences { margin-bottom: 15px; margin-top: 15px; padding: 8px 1em 6px; }
 .md-task-list-item > input { margin-left: -1.3em; }
 @media screen and (min-width: 914px) {
@@ -197,17 +209,17 @@ table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
 .md-fences { background-color: rgb(248, 248, 248); }
 #write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
 .mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
 #write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
 #write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
 #write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
 #write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
-.md-image > .md-meta { border-radius: 3px; font-family: Consolas, "Liberation Mono", Courier, monospace; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
-.md-tag { color: inherit; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
 .md-toc { margin-top: 20px; padding-bottom: 20px; }
 .sidebar-tabs { border-bottom: none; }
 #typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
 #typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
-#md-notification::before { top: 10px; }
 .on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
 header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
 .file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
@@ -219,15 +231,15 @@ header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Aria
 
 
 
- .typora-export p {white-space: normal;} 
+ .typora-export p, .typora-export .footnote-line {white-space: normal;} 
 </style>
 </head>
 <body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name='header-n471' class='md-header-anchor '></a>深度学习笔记目录</h1><h2><a name='header-n473' class='md-header-anchor '></a>第一门课 神经网络和深度学习(Neural Networks and Deep Learning)</h2><p><a href='lesson1-week1.html'>第一周：深度学习引言(Introduction to Deep Learning) </a></p><p>1.1 欢迎(Welcome)</p><p>1.2 什么是神经网络？(What is a Neural Network) </p><p>1.3 神经网络的监督学习(Supervised Learning with Neural Networks) </p><p>1.4 为什么神经网络会流行？(Why is Deep Learning taking off?) </p><p>1.5 关于本课程(About this Course) </p><p>1.6 课程资源(Course Resources) </p><p>1.7 Geoffery Hinton 专访(Geoffery Hinton interview) </p><p><a href='lesson1-week2.html'>第二周：神经网络的编程基础(Basics of Neural Network programming) </a></p><p>2.1 二分类(Binary Classification) </p><p>2.2 逻辑回归(Logistic Regression) </p><p>2.3 逻辑回归的代价函数（Logistic Regression Cost Function） </p><p>2.4 梯度下降（Gradient Descent） </p><p>2.5 导数（Derivatives）</p><p>2.6 更多的导数例子（More Derivative Examples） </p><p>2.7 计算图（Computation Graph）</p><p>2.8 计算图导数（Derivatives with a Computation Graph） </p><p>2.9 逻辑回归的梯度下降（Logistic Regression Gradient Descent） </p><p>2.10 梯度下降的例子(Gradient Descent on m Examples) </p><p>2.11 向量化(Vectorization) </p><p>2.12 更多的向量化例子（More Examples of Vectorization）</p><p>2.13 向量化逻辑回归(Vectorizing Logistic Regression) </p><p>2.14 向量化逻辑回归的梯度计算（Vectorizing Logistic Regression&#39;s Gradient）</p><p>2.15 Python中的广播机制（Broadcasting in Python）</p><p>2.16 关于 Python与numpy向量的使用（A note on python or numpy vectors）</p><p>2.17 Jupyter/iPython Notebooks快速入门（Quick tour of Jupyter/iPython Notebooks）</p><p>2.18 逻辑回归损失函数详解（Explanation of logistic regression cost function）</p><p><a href='lesson1-week3.html'>第三周：浅层神经网络(Shallow neural networks)</a></p><p>3.1 神经网络概述（Neural Network Overview）</p><p>3.2 神经网络的表示（Neural Network Representation） </p><p>3.3 计算一个神经网络的输出（Computing a Neural Network&#39;s output）</p><p>3.4 多样本向量化（Vectorizing across multiple examples）</p><p>3.5 向量化实现的解释（Justification for vectorized implementation）</p><p>3.6 激活函数（Activation functions） </p><p>3.7 为什么需要非线性激活函数？（why need a nonlinear activation function?） </p><p>3.8 激活函数的导数（Derivatives of activation functions） </p><p>3.9 神经网络的梯度下降（Gradient descent for neural networks） </p><p>3.10（选修）直观理解反向传播（Backpropagation intuition） </p><p>3.11 随机初始化（Random+Initialization）</p><p><a href='lesson1-week4.html'>第四周：深层神经网络(Deep Neural Networks)</a></p><p>4.1 深层神经网络（Deep L-layer neural network） </p><p>4.2 前向传播和反向传播（Forward and backward propagation） </p><p>4.3 深层网络中的前向和反向传播（Forward propagation in a Deep Network）</p><p>4.4 核对矩阵的维数（Getting your matrix dimensions right） </p><p>4.5 为什么使用深层表示？（Why deep representations?）</p><p>4.6 搭建神经网络块（Building blocks of deep neural networks）</p><p>4.7 参数VS超参数（Parameters vs Hyperparameters） </p><p>4.8 深度学习和大脑的关联性（What does this have to do with the brain?）</p><h2><a name='header-n570' class='md-header-anchor '></a>第二门课 改善深层神经网络：超参数调试、正则化以及优化(Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization)</h2><p><a href='lesson2-week1.html'>第一周：深度学习的实用层面(Practical aspects of Deep Learning) </a></p><p>1.1 训练，验证，测试集（Train / Dev / Test sets） </p><p>1.2 偏差，方差（Bias /Variance） </p><p>1.3 机器学习基础（Basic Recipe for Machine Learning） </p><p>1.4 正则化（Regularization）</p><p>1.5 为什么正则化有利于预防过拟合呢？（Why regularization reduces overfitting?）</p><p>1.6 dropout 正则化（Dropout Regularization）</p><p>1.7 理解 dropout（Understanding Dropout）</p><p>1.8 其他正则化方法（Other regularization methods）</p><p>1.9 标准化输入（Normalizing inputs）</p><p>1.10 梯度消失/梯度爆炸（Vanishing / Exploding gradients）</p><p>1.11 神经网络的权重初始化（Weight Initialization for Deep NetworksVanishing /Exploding gradients） </p><p>1.12 梯度的数值逼近（Numerical approximation of gradients）</p><p>1.13 梯度检验（Gradient checking）</p><p>1.14 梯度检验应用的注意事项（Gradient Checking Implementation Notes） </p><p><a href='lesson2-week2.html'>第二周：优化算法 (Optimization algorithms) </a></p><p>2.1 Mini-batch 梯度下降（Mini-batch gradient descent） </p><p>2.2 理解Mini-batch 梯度下降（Understanding Mini-batch gradient descent）</p><p>2.3 指数加权平均（Exponentially weighted averages）</p><p>2.4 理解指数加权平均（Understanding Exponentially weighted averages） </p><p>2.5 指数加权平均的偏差修正（Bias correction in exponentially weighted averages）</p><p>2.6 momentum梯度下降（Gradient descent with momentum）</p><p>2.7 RMSprop——root mean square prop（RMSprop）</p><p>2.8 Adam优化算法（Adam optimization algorithm）</p><p>2.9 学习率衰减（Learning rate decay）</p><p>2.10 局部最优问题（The problem of local optima）</p><p><a href='lesson2-week3.html'>第三周超参数调试，batch正则化和程序框架（Hyperparameter tuning, Batch Normalization and Programming Frameworks)</a> </p><p>3.1 调试处理（Tuning process） </p><p>3.2 为超参数选择和适合范围（Using an appropriate scale to pick hyperparameters）</p><p>3.3 超参数训练的实践：Pandas vs. Caviar（Hyperparameters tuning in practice: Pandas vs. Caviar）</p><p>3.4 网络中的正则化激活函数（Normalizing activations in a network） </p><p>3.5 将 Batch Norm拟合进神经网络（Fitting Batch Norm into a neural network）</p><p>3.6 为什么Batch Norm奏效？（Why does Batch Norm work?）</p><p>3.7 测试时的Batch Norm（Batch Norm at test time）</p><p>3.8 Softmax 回归（Softmax Regression）</p><p>3.9 训练一个Softmax 分类器（Training a softmax classifier） </p><p>3.10 深度学习框架（Deep learning frameworks） </p><p>3.11 TensorFlow（TensorFlow） </p><h2><a name='header-n647' class='md-header-anchor '></a>第三门课 结构化机器学习项目 (Structuring Machine Learning Projects)</h2><p><a href='lesson3-week1.html'>第一周：机器学习策略（1）(ML Strategy (1))</a> </p><p>1.1 为什么是ML策略？ (Why ML Strategy) </p><p>1.2 正交化(Orthogonalization) </p><p>1.3 单一数字评估指标(Single number evaluation metric) </p><p>1.4 满足和优化指标 (Satisficing and Optimizing metric)</p><p>1.5 训练集、开发集、测试集的划分(Train/dev/test distributions) </p><p>1.6 开发集和测试集的大小 (Size of the dev and test sets) </p><p>1.7 什么时候改变开发集/测试集和评估指标(When to change dev/test sets and metrics) </p><p>1.8 为什么是人的表现 (Why human-level performance?) </p><p>1.9 可避免偏差(Avoidable bias) </p><p>1.10 理解人类的表现 (Understanding human-level performance) </p><p>1.11 超过人类的表现(Surpassing human-level performance) </p><p>1.12 改善你的模型表现 (Improving your model performance) </p><p><a href='lesson3-week2.html'>第二周：机器学习策略（2）(ML Strategy (2))</a> </p><p>2.1 误差分析 (Carrying out error analysis) </p><p>2.2 清除标注错误的数据(Cleaning up incorrectly labeled data) </p><p>2.3 快速搭建你的第一个系统，并进行迭代(Build your first system quickly, then iterate) </p><p>2.4 在不同的分布上的训练集和测试集 (Training and testing on different distributions) </p><p>2.5 数据分布不匹配的偏差与方差分析 (Bias and Variance with mismatched data distributions) </p><p>2.6 处理数据不匹配问题(Addressing data mismatch) </p><p>2.7 迁移学习 (Transfer learning) </p><p>2.8 多任务学习(Multi-task learning) </p><p>2.9 什么是端到端的深度学习？ (What is end-to-end deep learning?) </p><p>2.10 是否使用端到端的深度学习方法 (Whether to use end-to-end deep learning) </p><h2><a name='header-n696' class='md-header-anchor '></a>第四门课 卷积神经网络（Convolutional Neural Networks）</h2><p><a href='lesson4-week1.html'>第一周 卷积神经网络(Foundations of Convolutional Neural Networks)</a> </p><p>1.1	计算机视觉（Computer vision）</p><p>1.2	边缘检测示例（Edge detection example）</p><p>1.3	更多边缘检测内容（More edge detection）</p><p>1.4	Padding	</p><p>1.5	卷积步长（Strided convolutions）	</p><p>1.6	三维卷积（Convolutions over volumes）	</p><p>1.7	单层卷积网络（One layer of a convolutional network）	</p><p>1.8	简单卷积网络示例（A simple convolution network example）	</p><p>1.9	池化层（Pooling layers）	</p><p>1.10 卷积神经网络示例（Convolutional neural network example）</p><p>1.11 为什么使用卷积？（Why convolutions?）</p><p><a href='lesson4-week2.html'>第二周 深度卷积网络：实例探究(Deep convolutional models: case studies)</a> 
-2.1 为什么要进行实例探究？（Why look at case studies?）</p><p>2.2 经典网络（Classic networks）</p><p>2.3 残差网络（Residual Networks (ResNets)）</p><p>2.4 残差网络为什么有用？（Why ResNets work?）	</p><p>2.5 网络中的网络以及 1×1 卷积（Network in Network and 1×1 convolutions）</p><p>2.6 谷歌 Inception 网络简介（Inception network motivation）	</p><p>2.7 Inception 网络（Inception network）	</p><p>2.8 使用开源的实现方案（Using open-source implementations）	</p><p>2.9 迁移学习（Transfer Learning）	</p><p>2.10 数据扩充（Data augmentation）	</p><p>2.11 计算机视觉现状（The state of computer vision）	</p><p><a href='lesson4-week3.html'>第三周 目标检测（Object detection）</a>
-3.1 目标定位（Object localization）</p><p>3.2 特征点检测（Landmark detection）</p><p>3.3 目标检测（Object detection）</p><p>3.4 卷积的滑动窗口实现（Convolutional implementation of sliding windows）</p><p>3.5 Bounding Box预测（Bounding box predictions）</p><p>3.6 交并比（Intersection over union）</p><p>3.7 非极大值抑制（Non-max suppression）</p><p>3.8 Anchor Boxes</p><p>3.9 YOLO 算法（Putting it together: YOLO algorithm）</p><p>3.10 候选区域（选修）（Region proposals (Optional)）</p><p><a href='lesson4-week4.html'>第四周 特殊应用：人脸识别和神经风格转换（Special applications: Face recognition &amp;Neural style transfer）</a>
-4.1 什么是人脸识别？(What is face recognition?)</p><p>4.2 One-Shot学习（One-shot learning）</p><p>4.3 Siamese 网络（Siamese network）</p><p>4.4 Triplet 损失（Triplet 损失）</p><p>4.5 面部验证与二分类（Face verification and binary classification）</p><p>4.6 什么是神经风格转换？（What is neural style transfer?）</p><p>4.7 什么是深度卷积网络？（What are deep ConvNets learning?）</p><p>4.8 代价函数（Cost function）</p><p>4.9 内容代价函数（Content cost function）</p><p>4.10 风格代价函数（Style cost function）</p><p>4.11 一维到三维推广（1D and 3D generalizations of models）</p><h1><a name='header-n788' class='md-header-anchor '></a>第五门课 序列模型(Sequence Models)</h1><p><a href='lesson5-week1.html'>第一周 循环序列模型（Recurrent Neural Networks）</a>
-1.1 为什么选择序列模型？（Why Sequence Models?）</p><p>1.2 数学符号（Notation）</p><p>1.3 循环神经网络模型（Recurrent Neural Network Model）</p><p>1.4 通过时间的反向传播（Backpropagation through time）</p><p>1.5 不同类型的循环神经网络（Different types of RNNs）</p><p>1.6 语言模型和序列生成（Language model and sequence generation）</p><p>1.7 对新序列采样（Sampling novel sequences）</p><p>1.8 循环神经网络的梯度消失（Vanishing gradients with RNNs）</p><p>1.9 GRU单元（Gated Recurrent Unit（GRU））</p><p>1.10 长短期记忆（LSTM（long short term memory）unit）</p><p>1.11 双向循环神经网络（Bidirectional RNN）</p><p>1.12 深层循环神经网络（Deep RNNs）</p><p><a href='lesson5-week2.html'>第二周 自然语言处理与词嵌入（Natural Language Processing and Word Embeddings）</a>
-2.1 词汇表征（Word Representation）</p><p>2.2 使用词嵌入（Using Word Embeddings）</p><p>2.3 词嵌入的特性（Properties of Word Embeddings）</p><p>2.4 嵌入矩阵（Embedding Matrix）</p><p>2.5 学习词嵌入（Learning Word Embeddings）</p><p>2.6 Word2Vec</p><p>2.7 负采样（Negative Sampling）</p><p>2.8 GloVe 词向量（GloVe Word Vectors）</p><p>2.9 情绪分类（Sentiment Classification）</p><p>2.10 词嵌入除偏（Debiasing Word Embeddings）</p><p><a href='lesson5-week3.html'>第三周 序列模型和注意力机制（Sequence models &amp; Attention mechanism）</a></p><p>3.1 基础模型（Basic Models）</p><p>3.2 选择最可能的句子（Picking the most likely sentence）</p><p>3.3 集束搜索（Beam Search）</p><p>3.4 改进集束搜索（Refinements to Beam Search）</p><p>3.5 集束搜索的误差分析（Error analysis in beam search）</p><p>3.6 Bleu 得分（选修）（Bleu Score (optional)）</p><p>3.7 注意力模型直观理解（Attention Model Intuition）</p><p>3.8注意力模型（Attention Model）</p><p>3.9语音识别（Speech recognition）</p><p>3.10触发字检测（Trigger Word Detection）</p><p>3.11结论和致谢（Conclusion and thank you）</p><p><strong>附件</strong></p><p><a href='interview.html'>人工智能大师访谈</a></p><p>吴恩达采访 Geoffery Hinton</p><p>吴恩达采访 Ian Goodfellow</p><p>吴恩达采访 Ruslan Salakhutdinov</p><p>吴恩达采访 Yoshua Bengio</p><p>吴恩达采访 林元庆</p><p>吴恩达采访 Pieter Abbeel	</p><p>吴恩达采访 Andrej Karpathy</p><p><a href='notation.html'>深度学习符号指南（原课程翻译）</a></p><p><a href='notation.html'>机器学习的数学基础</a></p><p>&nbsp;</p><p>&nbsp;</p></div>
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>深度学习笔记目录</h1><h2><a name='header-n2' class='md-header-anchor '></a>第一门课 神经网络和深度学习(Neural Networks and Deep Learning) </h2><p><a href='lesson1-week1.md'>第一周：深度学习引言(Introduction to Deep Learning) </a></p><p>1.1 欢迎(Welcome)</p><p>1.2 什么是神经网络？(What is a Neural Network) </p><p>1.3 神经网络的监督学习(Supervised Learning with Neural Networks) </p><p>1.4 为什么神经网络会流行？(Why is Deep Learning taking off?) </p><p>1.5 关于本课程(About this Course) </p><p>1.6 课程资源(Course Resources) </p><p>1.7 Geoffery Hinton 专访(Geoffery Hinton interview) </p><p><a href='lesson1-week2.md'>第二周：神经网络的编程基础(Basics of Neural Network programming) </a></p><p>2.1 二分类(Binary Classification) </p><p>2.2 逻辑回归(Logistic Regression) </p><p>2.3 逻辑回归的代价函数（Logistic Regression Cost Function） </p><p>2.4 梯度下降（Gradient Descent） </p><p>2.5 导数（Derivatives）</p><p>2.6 更多的导数例子（More Derivative Examples） </p><p>2.7 计算图（Computation Graph）</p><p>2.8 使用计算图求导数（Derivatives with a Computation Graph） </p><p>2.9 逻辑回归的梯度下降（Logistic Regression Gradient Descent） </p><p>2.10 梯度下降的例子(Gradient Descent on m Examples) </p><p>2.11 向量化(Vectorization) </p><p>2.12 更多的向量化例子（More Examples of Vectorization）</p><p>2.13 向量化逻辑回归(Vectorizing Logistic Regression) </p><p>2.14 向量化逻辑回归的梯度计算（Vectorizing Logistic Regression&#39;s Gradient）</p><p>2.15 Python中的广播机制（Broadcasting in Python）</p><p>2.16 关于 Python与numpy向量的使用（A note on python or numpy vectors）</p><p>2.17 Jupyter/iPython Notebooks快速入门（Quick tour of Jupyter/iPython Notebooks）</p><p>2.18 逻辑回归损失函数详解（Explanation of logistic regression cost function）</p><p><a href='lesson1-week3.md'>第三周：浅层神经网络(Shallow neural networks)</a></p><p>3.1 神经网络概述（Neural Network Overview）</p><p>3.2 神经网络的表示（Neural Network Representation） </p><p>3.3 计算一个神经网络的输出（Computing a Neural Network&#39;s output）</p><p>3.4 多样本向量化（Vectorizing across multiple examples）</p><p>3.5 向量化实现的解释（Justification for vectorized implementation）</p><p>3.6 激活函数（Activation functions） </p><p>3.7 为什么需要非线性激活函数？（why need a nonlinear activation function?） </p><p>3.8 激活函数的导数（Derivatives of activation functions） </p><p>3.9 神经网络的梯度下降（Gradient descent for neural networks） </p><p>3.10（选修）直观理解反向传播（Backpropagation intuition） </p><p>3.11 随机初始化（Random+Initialization）</p><p><a href='lesson1-week4.md'>第四周：深层神经网络(Deep Neural Networks)</a></p><p>4.1 深层神经网络（Deep L-layer neural network） </p><p>4.2 前向传播和反向传播（Forward and backward propagation） </p><p>4.3 深层网络中的前向和反向传播（Forward propagation in a Deep Network）</p><p>4.4 核对矩阵的维数（Getting your matrix dimensions right） </p><p>4.5 为什么使用深层表示？（Why deep representations?）</p><p>4.6 搭建神经网络块（Building blocks of deep neural networks）</p><p>4.7 参数VS超参数（Parameters vs Hyperparameters） </p><p>4.8 深度学习和大脑的关联性（What does this have to do with the brain?）</p><h2><a name='header-n51' class='md-header-anchor '></a>第二门课 改善深层神经网络：超参数调试、正则化以及优化(Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization)</h2><p><a href='lesson2-week1.md'>第一周：深度学习的实践层面(Practical aspects of Deep Learning) </a></p><p>1.1 训练，验证，测试集（Train / Dev / Test sets） </p><p>1.2 偏差，方差（Bias /Variance） </p><p>1.3 机器学习基础（Basic Recipe for Machine Learning） </p><p>1.4 正则化（Regularization）</p><p>1.5 为什么正则化有利于预防过拟合呢？（Why regularization reduces overfitting?）</p><p>1.6 dropout 正则化（Dropout Regularization）</p><p>1.7 理解 dropout（Understanding Dropout）</p><p>1.8 其他正则化方法（Other regularization methods）</p><p>1.9 标准化输入（Normalizing inputs）</p><p>1.10 梯度消失/梯度爆炸（Vanishing / Exploding gradients）</p><p>1.11 神经网络的权重初始化（Weight Initialization for Deep Networks） </p><p>1.12 梯度的数值逼近（Numerical approximation of gradients）</p><p>1.13 梯度检验（Gradient checking）</p><p>1.14 梯度检验应用的注意事项（Gradient Checking Implementation Notes） </p><p><a href='lesson2-week2.md'>第二周：优化算法 (Optimization algorithms) </a></p><p>2.1 Mini-batch 梯度下降（Mini-batch gradient descent） </p><p>2.2 理解Mini-batch 梯度下降（Understanding Mini-batch gradient descent）</p><p>2.3 指数加权平均（Exponentially weighted averages）</p><p>2.4 理解指数加权平均（Understanding Exponentially weighted averages） </p><p>2.5 指数加权平均的偏差修正（Bias correction in exponentially weighted averages）</p><p>2.6 momentum梯度下降（Gradient descent with momentum）</p><p>2.7 RMSprop——root mean square prop（RMSprop）</p><p>2.8 Adam优化算法（Adam optimization algorithm）</p><p>2.9 学习率衰减（Learning rate decay）</p><p>2.10 局部最优问题（The problem of local optima）</p><p><a href='lesson2-week3.md'>第三周超参数调试，batch正则化和程序框架（Hyperparameter tuning, Batch Normalization and Programming Frameworks)</a> </p><p>3.1 调试处理（Tuning process） </p><p>3.2 为超参数选择和适合范围（Using an appropriate scale to pick hyperparameters）</p><p>3.3 超参数调试实践：Pandas vs. Caviar（Hyperparameters tuning in practice: Pandas vs. Caviar）</p><p>3.4 网络中的正则化激活函数（Normalizing activations in a network） </p><p>3.5 将 Batch Norm拟合进神经网络（Fitting Batch Norm into a neural network）</p><p>3.6 为什么Batch Norm奏效？（Why does Batch Norm work?）</p><p>3.7 测试时的Batch Norm（Batch Norm at test time）</p><p>3.8 Softmax 回归（Softmax Regression）</p><p>3.9 训练一个Softmax 分类器（Training a softmax classifier） </p><p>3.10 深度学习框架（Deep learning frameworks） </p><p>3.11 TensorFlow（TensorFlow） </p><h2><a name='header-n90' class='md-header-anchor '></a>第三门课 结构化机器学习项目 (Structuring Machine Learning Projects) </h2><p><a href='lesson3-week1.md'>第一周：机器学习策略（1）(ML Strategy (1))</a> </p><p>1.1 为什么是ML策略？ (Why ML Strategy) </p><p>1.2 正交化(Orthogonalization) </p><p>1.3 单一数字评估指标(Single number evaluation metric) </p><p>1.4 满足和优化指标 (Satisficing and Optimizing metric)</p><p>1.5 训练集、开发集、测试集的划分(Train/dev/test distributions) </p><p>1.6 开发集和测试集的大小 (Size of the dev and test sets) </p><p>1.7 什么时候改变开发集/测试集和评估指标(When to change dev/test sets and metrics) </p><p>1.8 为什么是人的表现 (Why human-level performance?) </p><p>1.9 可避免偏差(Avoidable bias) </p><p>1.10 理解人类的表现 (Understanding human-level performance) </p><p>1.11 超过人类的表现(Surpassing human-level performance) </p><p>1.12 改善你的模型表现 (Improving your model performance) </p><p><a href='lesson3-week2.md'>第二周：机器学习策略（2）(ML Strategy (2))</a> </p><p>2.1 误差分析 (Carrying out error analysis) </p><p>2.2 清除标注错误的数据(Cleaning up incorrectly labeled data) </p><p>2.3 快速搭建你的第一个系统，并进行迭代(Build your first system quickly, then iterate) </p><p>2.4 使用来自不同分布的数据，进行训练和测试 (Training and testing on different distributions) </p><p>2.5 数据分布不匹配时，偏差与方差的分析 (Bias and Variance with mismatched data distributions) </p><p>2.6 处理数据不匹配问题(Addressing data mismatch) </p><p>2.7 迁移学习 (Transfer learning) </p><p>2.8 多任务学习(Multi-task learning) </p><p>2.9 什么是端到端的深度学习？ (What is end-to-end deep learning?) </p><p>2.10 是否使用端到端的深度学习方法 (Whether to use end-to-end deep learning) </p><h2><a name='header-n115' class='md-header-anchor '></a>第四门课 卷积神经网络（Convolutional Neural Networks）<span>	</span></h2><p><a href='lesson4-week1.md'>第一周 卷积神经网络(Foundations of Convolutional Neural Networks)</a> </p><p>1.1<span>	</span>计算机视觉（Computer vision）</p><p>1.2<span>	</span>边缘检测示例（Edge detection example）</p><p>1.3<span>	</span>更多边缘检测内容（More edge detection）</p><p>1.4<span>	</span>Padding<span>	</span></p><p>1.5<span>	</span>卷积步长（Strided convolutions）<span>	</span></p><p>1.6<span>	</span>三维卷积（Convolutions over volumes）<span>	</span></p><p>1.7<span>	</span>单层卷积网络（One layer of a convolutional network）<span>	</span></p><p>1.8<span>	</span>简单卷积网络示例（A simple convolution network example）<span>	</span></p><p>1.9<span>	</span>池化层（Pooling layers）<span>	</span></p><p>1.10 卷积神经网络示例（Convolutional neural network example）</p><p>1.11 为什么使用卷积？（Why convolutions?）</p><p><a href='lesson4-week2.md'>第二周 深度卷积网络：实例探究(Deep convolutional models: case studies)</a> 
+2.1 为什么要进行实例探究？（Why look at case studies?）</p><p>2.2 经典网络（Classic networks）</p><p>2.3 残差网络(ResNets)（Residual Networks (ResNets)）</p><p>2.4 残差网络为什么有用？（Why ResNets work?）<span>	</span></p><p>2.5 网络中的网络以及 1×1 卷积（Network in Network and 1×1 convolutions）</p><p>2.6 谷歌 Inception 网络简介（Inception network motivation）<span>	</span></p><p>2.7 Inception 网络（Inception network）<span>	</span></p><p>2.8 使用开源的实现方案（Using open-source implementations）<span>	</span></p><p>2.9 迁移学习（Transfer Learning）<span>	</span></p><p>2.10 数据增强（Data augmentation）<span>	</span></p><p>2.11 计算机视觉现状（The state of computer vision）<span>	</span></p><p><a href='lesson4-week3.md'>第三周 目标检测（Object detection）</a>
+3.1 目标定位（Object localization）</p><p>3.2 特征点检测（Landmark detection）</p><p>3.3 目标检测（Object detection）</p><p>3.4 滑动窗口的卷积实现（Convolutional implementation of sliding windows）</p><p>3.5 Bounding Box预测（Bounding box predictions）</p><p>3.6 交并比（Intersection over union）</p><p>3.7 非极大值抑制（Non-max suppression）</p><p>3.8 Anchor Boxes</p><p>3.9 YOLO 算法（Putting it together: YOLO algorithm）</p><p>3.10 候选区域（选修）（Region proposals (Optional)）</p><p><a href='lesson4-week4.md'>第四周 特殊应用：人脸识别和神经风格转换（Special applications: Face recognition &amp;Neural style transfer）</a>
+4.1 什么是人脸识别？(What is face recognition?)</p><p>4.2 One-Shot学习（One-shot learning）</p><p>4.3 Siamese 网络（Siamese network）</p><p>4.4 Triplet 损失（Triplet 损失）</p><p>4.5 人脸验证与二分类（Face verification and binary classification）</p><p>4.6 什么是神经风格迁移？（What is neural style transfer?）</p><p>4.7 CNN特征可视化（What are deep ConvNets learning?）</p><p>4.8 代价函数（Cost function）</p><p>4.9 内容代价函数（Content cost function）</p><p>4.10 风格代价函数（Style cost function）</p><p>4.11 一维到三维推广（1D and 3D generalizations of models）</p><h1><a name='header-n160' class='md-header-anchor '></a>第五门课 序列模型(Sequence Models)</h1><p><a href='lesson5-week1.md'>第一周 循环序列模型（Recurrent Neural Networks）</a>
+1.1 为什么选择序列模型？（Why Sequence Models?）</p><p>1.2 数学符号（Notation）</p><p>1.3 循环神经网络模型（Recurrent Neural Network Model）</p><p>1.4 通过时间的反向传播（Backpropagation through time）</p><p>1.5 不同类型的循环神经网络（Different types of RNNs）</p><p>1.6 语言模型和序列生成（Language model and sequence generation）</p><p>1.7 对新序列采样（Sampling novel sequences）</p><p>1.8 循环神经网络的梯度消失（Vanishing gradients with RNNs）</p><p>1.9 GRU单元（Gated Recurrent Unit（GRU））</p><p>1.10 长短期记忆（LSTM（long short term memory）unit）</p><p>1.11 双向循环神经网络（Bidirectional RNN）</p><p>1.12 深层循环神经网络（Deep RNNs）</p><p><a href='lesson5-week2.md'>第二周 自然语言处理与词嵌入（Natural Language Processing and Word Embeddings）</a>
+2.1 词汇表征（Word Representation）</p><p>2.2 使用词嵌入（Using Word Embeddings）</p><p>2.3 词嵌入的特性（Properties of Word Embeddings）</p><p>2.4 嵌入矩阵（Embedding Matrix）</p><p>2.5 学习词嵌入（Learning Word Embeddings）</p><p>2.6 Word2Vec</p><p>2.7 负采样（Negative Sampling）</p><p>2.8 GloVe 词向量（GloVe Word Vectors）</p><p>2.9 情绪分类（Sentiment Classification）</p><p>2.10 词嵌入除偏（Debiasing Word Embeddings）</p><p><a href='lesson5-week3.md'>第三周 序列模型和注意力机制（Sequence models &amp; Attention mechanism）</a></p><p>3.1 基础模型（Basic Models）</p><p>3.2 选择最可能的句子（Picking the most likely sentence）</p><p>3.3 集束搜索（Beam Search）</p><p>3.4 改进集束搜索（Refinements to Beam Search）</p><p>3.5 集束搜索的误差分析（Error analysis in beam search）</p><p>3.6 Bleu 得分（选修）（Bleu Score (optional)）</p><p>3.7 注意力模型直观理解（Attention Model Intuition）</p><p>3.8注意力模型（Attention Model）</p><p>3.9语音识别（Speech recognition）</p><p>3.10触发字检测（Trigger Word Detection）</p><p>3.11结论和致谢（Conclusion and thank you）</p><p><strong>附件</strong></p><p><a href='interview.md'>人工智能大师访谈</a></p><p>吴恩达采访 Geoffery Hinton</p><p>吴恩达采访 Ian Goodfellow</p><p>吴恩达采访 Ruslan Salakhutdinov</p><p>吴恩达采访 Yoshua Bengio</p><p>吴恩达采访 林元庆</p><p>吴恩达采访 Pieter Abbeel<span>	</span></p><p>吴恩达采访 Andrej Karpathy</p><p><a href='notation.md'>深度学习符号指南（原课程翻译）</a></p><p><a href='notation.md'>机器学习的数学基础</a></p><p>&nbsp;</p><p>&nbsp;</p></div>
 </body>
 </html>
