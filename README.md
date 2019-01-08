@@ -50,7 +50,7 @@ haiguang2000@qq.com
 
 **转载请注明出处**：https://github.com/fengdu78/deeplearning_ai_books
 
-**机器学习爱好者qq群：774999266或者654173748** 
+**机器学习爱好者qq群：554839127（我们有6个群，加过一个就不需要加了）** 
 
 # 深度学习笔记目录
 
