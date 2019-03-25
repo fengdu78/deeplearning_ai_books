@@ -31,7 +31,7 @@ $$
 	\end{array}
 	\right\}
 	\implies{z={w}^Tx+b}
-	\implies{\alpha = \sigma(z)}\\ 
+	\implies{a = \sigma(z)}\\ 
 	\implies{{L}(a,y)}
 $$
 
