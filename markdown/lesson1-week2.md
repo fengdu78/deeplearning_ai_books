@@ -476,12 +476,9 @@ b=b-alpha*db
 
 ```
 z=0
-
-for i in range(n_x)
-
-    z+=w[i]*x[i]
-
-z+=b
+for i in range(n_x):
+    z += w[i]*x[i]
+z += b
 ```
 
 这是一个非向量化的实现，你会发现这真的很慢，作为一个对比，向量化实现将会非常直接计算${{w}^{T}}x$，代码如下：
@@ -499,14 +496,16 @@ import numpy as np #导入numpy库
 a = np.array([1,2,3,4]) #创建一个数据a
 print(a)
 # [1 2 3 4]
+
 import time #导入时间库
 a = np.random.rand(1000000)
 b = np.random.rand(1000000) #通过round随机得到两个一百万维度的数组
 tic = time.time() #现在测量一下当前时间
+
 #向量化的版本
 c = np.dot(a,b)
 toc = time.time()
-print(“Vectorized version:” + str(1000*(toc-tic)) +”ms”) #打印一下向量化的版本的时间
+print("Vectorized version:" + str(1000*(toc-tic)) +"ms") #打印一下向量化的版本的时间
 
 #继续增加非向量化的版本
 c = 0
@@ -515,7 +514,7 @@ for i in range(1000000):
     c += a[i]*b[i]
 toc = time.time()
 print(c)
-print(“For loop:” + str(1000*(toc-tic)) + “ms”)#打印for循环的版本的时间
+print("For loop:" + str(1000*(toc-tic)) + "ms")#打印for循环的版本的时间
 ```
 
 返回值见图。
