@@ -24,7 +24,10 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
 
-微信公众号：机器学习初学者 ![gongzhong](/images/gongzhong.png)
+微信公众号：机器学习初学者 ![gongzhong](/images/gongzhong.jpg)
+知识星球：黄博的机器学习圈子![xingqiu](/images/zhishixingqiu1.jpg)
+
+[我的知乎](https://www.zhihu.com/people/fengdu78/)
 
 **主要编写人员**：黄海广、林兴木（第四所有底稿，第五课第一二周，第三周前三节）、祝彦森:（第三课所有底稿）、贺志尧（第五课第三周底稿）、王翔、胡瀚文、 余笑、 郑浩、李怀松、 朱越鹏、陈伟贺、 曹越、 路皓翔、邱牧宸、 唐天泽、 张浩、 陈志豪、 游忍、 泽霖、沈伟臣、 贾红顺、 时超、 陈哲、赵一帆、 胡潇杨、段希、于冲、张鑫倩
 
@@ -50,7 +53,7 @@ haiguang2000@qq.com
 
 **转载请注明出处**：https://github.com/fengdu78/deeplearning_ai_books
 
-**机器学习爱好者qq群：554839127（我们有6个群，加过一个就不需要加了）** 
+**机器学习qq群：865189078（我们有8个群，加过一个就不需要加了）** 
 
 # 深度学习笔记目录
 
