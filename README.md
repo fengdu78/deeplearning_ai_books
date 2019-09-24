@@ -24,8 +24,10 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
 
-微信公众号：机器学习初学者 ![gongzhong](/images/gongzhong.jpg)
-知识星球：黄博的机器学习圈子![xingqiu](/images/zhishixingqiu1.jpg)
+微信公众号：机器学习初学者 ![gongzhong](images/gongzhong.jpg)
+知识星球：黄博的机器学习圈子![xingqiu](images/zhishixingqiu1.jpg)
+
+**注意：github下载太慢的话，关注我的公众号：“机器学习初学者”，回复“github镜像”即可下载本仓库的镜像文件，整个仓库压缩成一个iso。**
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/)
 
@@ -53,7 +55,7 @@ haiguang2000@qq.com
 
 **转载请注明出处**：https://github.com/fengdu78/deeplearning_ai_books
 
-**机器学习qq群：865189078（我们有8个群，加过一个就不需要加了）** 
+**机器学习qq群：659697409（我们有9个群，加过一个就不需要加了）** 
 
 # 深度学习笔记目录
 
