@@ -1,26 +1,26 @@
-**Coursera深度学习教程中文笔记**
+**Coursera Deep learning tutorial Chinese notes
 
-课程概述
+Course overview
 
 https://mooc.study.163.com/university/deeplearning_ai#/c
 
-这些课程专为已有一定基础（基本的编程知识，熟悉**Python**、对机器学习有基本了解），想要尝试进入人工智能领域的计算机专业人士准备。介绍显示：“深度学习是科技业最热门的技能之一，本课程将帮你掌握深度学习。”
+These courses are designed for computer professionals who already have a foundation (basic programming knowledge, familiar with Python Python, basic knowledge of machine learning) and want to try to enter the field of artificial intelligence. The introduction shows: "Deep learning is one of the most popular skills in the technology industry. This course will help you master deep learning."
 
-在这5堂课中，学生将可以学习到深度学习的基础，学会构建神经网络，并用在包括吴恩达本人在内的多位业界顶尖专家指导下创建自己的机器学习项目。**Deep Learning Specialization**对卷积神经网络 (**CNN**)、递归神经网络 (**RNN**)、长短期记忆 (**LSTM**) 等深度学习常用的网络结构、工具和知识都有涉及。
+In these five lessons, students will be able to learn the basics of deep learning, learn to build neural networks, and create their own machine learning projects under the guidance of many of the industry's top experts, including Wu Enda himself. **Deep Learning Specialization** Commonly used network structures and tools for deep learning such as convolutional neural networks (**CNN**), recurrent neural networks (**RNN**), long-term and short-term memory (**LSTM**) And knowledge is involved.
 
-课程中也会有很多实操项目，帮助学生更好地应用自己学到的深度学习技术，解决真实世界问题。这些项目将涵盖医疗、自动驾驶、和自然语言处理等时髦领域，以及音乐生成等等。**Coursera**上有一些特定方向和知识的资料，但一直没有比较全面、深入浅出的深度学习课程——《深度学习专业》的推出补上了这一空缺。
+There will also be many hands-on projects in the course to help students better apply the deep learning techniques they have learned and solve real-world problems. These projects will cover the fashionable areas of medical, autonomous driving, and natural language processing, as well as music generation and more. **Coursera** has some specific directions and knowledge, but there has been no comprehensive and in-depth deep learning course - the introduction of "Deep Learning Professional" has made up for this vacancy.
 
-课程的语言是**Python**，使用的框架是**Google**开源的**TensorFlow**。最吸引人之处在于，课程导师就是吴恩达本人，两名助教均来自斯坦福计算机系。完成课程所需时间根据不同的学习进度，大约需要3-4个月左右。学生结课后，**Coursera**将授予他们**Deep Learning Specialization**结业证书。
+The language of the course is **Python**, and the framework used is **Google** open source **TensorFlow**. The most attractive thing is that the course instructor is Wu Enda himself, and both assistants are from the Stanford Computer Department. The time required to complete the course will take approximately 3-4 months depending on the progress of the course. Upon completion of the class, **Coursera** will award them a **Deep Learning Specialization** certificate of completion.
 
-“我们将帮助你掌握深度学习，理解如何应用深度学习，在人工智能业界开启你的职业生涯。”吴恩达在课程页面中提到。
+“We will help you master deep learning, understand how to apply deep learning, and start your career in the artificial intelligence industry.” Wu Enda mentioned in the course page.
 
-本人黄海广博士，以前写过吴恩达老师的机器学习个人笔记。目前我正在组织团队整理中文笔记，由热心的朋友无偿帮忙制作整理，并持续更新。我们的团队的工作致力于**AI**在国内的推广，不会损害**Coursera**以及吴恩达老师的商业利益。
+I have Dr. Huang Haiguang, who has previously written Wu Enda’s machine learning personal notes. At present, I am organizing a team to organize Chinese notes, which will be helped by enthusiastic friends and will be continuously updated. The work of our team is committed to the promotion of **AI** in China, and will not harm the commercial interests of **Coursera** and Wu Enda.
 
-本人水平有限，如有公式、算法错误，请及时指出，发邮件给我。
+I have a limited level. If there are formulas or algorithm errors, please indicate them in time and send me an email.
 
-**笔记是根据视频和字幕写的，没有技术含量，只需要专注和严谨。**
+**Notes are written based on video and subtitles. There is no technical content, only focus and rigor. **
 
-黄海广
+Huang Haiguang
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
 
@@ -29,450 +29,441 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 **注意：github下载太慢的话，关注我的公众号：“机器学习初学者”，回复“github镜像”即可下载本仓库的镜像文件，整个仓库压缩成一个iso。**
 
-[我的知乎](https://www.zhihu.com/people/fengdu78/)
 
-**主要编写人员**：黄海广、林兴木（第四所有底稿，第五课第一二周，第三周前三节）、祝彦森:（第三课所有底稿）、贺志尧（第五课第三周底稿）、王翔、胡瀚文、 余笑、 郑浩、李怀松、 朱越鹏、陈伟贺、 曹越、 路皓翔、邱牧宸、 唐天泽、 张浩、 陈志豪、 游忍、 泽霖、沈伟臣、 贾红顺、 时超、 陈哲、赵一帆、 胡潇杨、段希、于冲、张鑫倩
+[My knowledge](https://www.zhihu.com/people/fengdu78/)
 
-**参与编辑人员**：黄海广、陈康凯、石晴路、钟博彦、向伟、严凤龙、刘成 、贺志尧、段希、陈瑶、林家泳、王翔、 谢士晨、蒋鹏
+**Main authors**: Huang Haiguang, Lin Xingmu (fourth draft, the first two weeks of the fifth lesson, the first three weeks of the third week), Zhu Yansen: (all the third lesson), He Zhizhen (third lesson Zhou Zhou), Wang Xiang, Hu Yuwen, Yu Xiao, Zheng Hao, Li Huaisong, Zhu Yuepeng, Chen Weihe, Cao Yue, Lu Yixiang, Qiu Muyu, Tang Tianze, Zhang Hao, Chen Zhihao, You Ren, Ze Lin, Shen Weichen, Jia Hongshun, Shi Chao, Chen Zhe, Zhao Yifan, Hu Yuyang, Duan Xi, Yu Chong, Zhang Xinqian
 
+**Participating editors**: Huang Haiguang, Chen Kangkai, Shi Qinglu, Zhong Boyan, Xiang Wei, Yan Fenglong, Liu Cheng, He Zhiwei, Duan Xi, Chen Yao, Lin Jiayong, Wang Xiang, Xie Shichen, Jiang Peng
 2018-04-14
 
-**本课程视频教程地址：**<https://mooc.study.163.com/university/deeplearning_ai#/c>
+**This course video tutorial address: **<https://mooc.study.163.com/university/deeplearning_ai#/c>
 
-**有同学提供了一个离线视频的下载**：链接：https://pan.baidu.com/s/1ciq3qHo0lgoD3MLRwfeqnA 密码：0kim
+** A classmate has provided an offline video download**: link：https://pan.baidu.com/s/1ciq3qHo0lgoD3MLRwfeqnA password：0kim
 
-（该视频从www.deeplearning.ai 网站下载，因众所周知的原因，国内用户观看某些在线视频非常不容易，故一些学者一起制作了离线视频，旨在方便国内用户个人学习使用，请勿用于商业用途。视频内嵌中英文字幕，推荐使用**potplayer**播放。版权属于吴恩达老师所有，若在线视频流畅，请到官方网站观看。）
+(This video is downloaded from www.deeplearning.ai. For well-known reasons, it is very difficult for domestic users to watch certain online videos. Therefore, some scholars have produced offline videos together, which are designed to be convenient for domestic users to learn and use. Do not use Commercial use. The video is embedded with Chinese and English subtitles. It is recommended to use **potplayer** to play. The copyright belongs to Wu Enda teacher. If the online video is smooth, please visit the official website.)
+[Notes website (suitable for mobile phone reading)] (http://www.ai-start.com)
 
-[笔记网站(适合手机阅读)](http://www.ai-start.com)
+Wu Enda's machine learning course notes and videos: https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes
 
-吴恩达老师的机器学习课程笔记和视频：https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes
+**This document is free, please do not use it for commercial purposes and it can be freely distributed. **
 
-**此文档免费，请不要用于商业用途，可以自由传播。**
+**Gifts of roses, hand a fragrance! **
 
-**赠人玫瑰，手有余香！**
+Haiguang2000@qq.com
 
-haiguang2000@qq.com
+**Reprint please indicate the source **: https://github.com/fengdu78/deeplearning_ai_books
 
-**转载请注明出处**：https://github.com/fengdu78/deeplearning_ai_books
+** Machine learning qq group: 659697409 (we have 9 groups, plus one will not need to add) **
 
-**机器学习qq群：659697409（我们有9个群，加过一个就不需要加了）** 
 
-# 深度学习笔记目录
 
-## 第一门课 神经网络和深度学习(Neural Networks and Deep Learning)
+## The first course Neural Networks and Deep Learning
 
-第一周：深度学习引言(Introduction to Deep Learning) 
+Week 1: Introduction to Deep Learning
 
-1.1 欢迎(Welcome)
+1.1 Welcome (Welcome)
+1.2 What is a neural network? (What is a Neural Network)
 
-1.2 什么是神经网络？(What is a Neural Network) 
+1.3 Supervised Learning with Neural Networks
 
-1.3 神经网络的监督学习(Supervised Learning with Neural Networks) 
+1.4 Why is neural network popular? (Why is Deep Learning taking off?)
 
-1.4 为什么神经网络会流行？(Why is Deep Learning taking off?) 
+1.5 About this Course (About this Course)
 
-1.5 关于本课程(About this Course) 
+1.6 Course Resources
 
-1.6 课程资源(Course Resources) 
+1.7 Geoffery Hinton interview (Geoffery Hinton interview)
 
-1.7 Geoffery Hinton 专访(Geoffery Hinton interview) 
+Week 2: Basics of Neural Network Programming
 
-第二周：神经网络的编程基础(Basics of Neural Network programming) 
+2.1 Binary Classification
 
-2.1 二分类(Binary Classification) 
+2.2 Logistic Regression
 
-2.2 逻辑回归(Logistic Regression) 
+2.3 Logistic Regression Cost Function
 
-2.3 逻辑回归的代价函数（Logistic Regression Cost Function） 
+2.4 Gradient Descent
 
-2.4 梯度下降（Gradient Descent） 
+2.5 Derivatives
+2.6 More Derivative Examples
 
-2.5 导数（Derivatives）
+2.7 Computation Graph
 
-2.6 更多的导数例子（More Derivative Examples） 
+2.8 Derivatives with a Computation Graph
 
-2.7 计算图（Computation Graph）
+2.9 Logistic Regression Gradient Descent
 
-2.8 计算图导数（Derivatives with a Computation Graph） 
+2.10 Gradient Descent on m Examples
 
-2.9 逻辑回归的梯度下降（Logistic Regression Gradient Descent） 
+2.11 Vectorization
 
-2.10 梯度下降的例子(Gradient Descent on m Examples) 
+2.12 More Examples of Vectorization
 
-2.11 向量化(Vectorization) 
+2.13 Vectorizing Logistic Regression
 
-2.12 更多的向量化例子（More Examples of Vectorization）
+2.14 Vectorizing Logistic Regression's Gradient
 
-2.13 向量化逻辑回归(Vectorizing Logistic Regression) 
+2.15 Broadcasting in Python (Broadcasting in Python)
 
-2.14 向量化逻辑回归的梯度计算（Vectorizing Logistic Regression's Gradient）
+2.16 About the use of Python and numpy vectors (A note on python or numpy vectors)
+2.17 Quick Tour of Jupyter/iPython Notebooks
 
-2.15 Python中的广播机制（Broadcasting in Python）
+2.18 Explanation of logistic regression cost function
 
-2.16 关于 Python与numpy向量的使用（A note on python or numpy vectors）
+Week 3: Shallow neural networks
 
-2.17 Jupyter/iPython Notebooks快速入门（Quick tour of Jupyter/iPython Notebooks）
+3.1 Neural Network Overview (Neural Network Overview)
 
-2.18 逻辑回归损失函数详解（Explanation of logistic regression cost function）
+3.2 Neural Network Representation (Neural Network Representation)
 
-第三周：浅层神经网络(Shallow neural networks)
+3.3 Calculating a Neural Network's output (Computing a Neural Network's output)
 
-3.1 神经网络概述（Neural Network Overview）
+3.4 Vectorizing across multiple examples
 
-3.2 神经网络的表示（Neural Network Representation） 
+3.5 Justification for vectorized implementation
 
-3.3 计算一个神经网络的输出（Computing a Neural Network's output）
+3.6 Activation functions
 
-3.4 多样本向量化（Vectorizing across multiple examples）
+3.7 Why do I need a nonlinear activation function? (why need a nonlinear activation function?)
 
-3.5 向量化实现的解释（Justification for vectorized implementation）
+3.8 Derivatives of activation functions
 
-3.6 激活函数（Activation functions） 
+3.9 Gradient descent for neural networks
 
-3.7 为什么需要非线性激活函数？（why need a nonlinear activation function?） 
+3.10 (optional) intuitive understanding of backpropagation intuition
 
-3.8 激活函数的导数（Derivatives of activation functions） 
+3.11 Random Initialization (Random+Initialization)
 
-3.9 神经网络的梯度下降（Gradient descent for neural networks） 
+Week 4: Deep Neural Networks
 
-3.10（选修）直观理解反向传播（Backpropagation intuition） 
+4.1 Deep L-layer neural network
 
-3.11 随机初始化（Random+Initialization）
+4.2 Forward and backward propagation (Forward and backward propagation)
 
-第四周：深层神经网络(Deep Neural Networks)
+4.3 Forward Propagation in a Deep Network (Forward Propagation in a Deep Network)
 
-4.1 深层神经网络（Deep L-layer neural network） 
+4.4 Checking your matrix dimensions right
 
-4.2 前向传播和反向传播（Forward and backward propagation） 
+4.5 Why use a deep representation? (Why deep representations?)
 
-4.3 深层网络中的前向和反向传播（Forward propagation in a Deep Network）
+4.6 Building blocks of deep neural networks
 
-4.4 核对矩阵的维数（Getting your matrix dimensions right） 
+4.7 Parameters vs Hyperparameters
 
-4.5 为什么使用深层表示？（Why deep representations?）
+4.8 Deep learning and brain correlation (What does this have to do with the brain?)
 
-4.6 搭建神经网络块（Building blocks of deep neural networks）
+Improve deep neural networks: Hyperparameter tuning, Regularization and Optimization (Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization)
 
-4.7 参数VS超参数（Parameters vs Hyperparameters） 
+Week 1: Practical aspects of Deep Learning
 
-4.8 深度学习和大脑的关联性（What does this have to do with the brain?）
+1.1 Training, Verification, Test Set (Train / Dev / Test sets)
 
-## 第二门课 改善深层神经网络：超参数调试、正则化以及优化(Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization)
+1.2 Deviation, variance (Bias /Variance)
 
-第一周：深度学习的实用层面(Practical aspects of Deep Learning) 
+1.3 Basic Learning for Machine Learning (Basic Recipe for Machine Learning)
 
-1.1 训练，验证，测试集（Train / Dev / Test sets） 
+1.4 Regularization
 
-1.2 偏差，方差（Bias /Variance） 
+1.5 Why does regularization help prevent overfitting? (Why regularization reduces overfitting?)
 
-1.3 机器学习基础（Basic Recipe for Machine Learning） 
+1.6 dropout Regularization (Dropout Regularization)
 
-1.4 正则化（Regularization）
+1.7 Understanding dropout (Understanding Dropout)
 
-1.5 为什么正则化有利于预防过拟合呢？（Why regularization reduces overfitting?）
+1.8 Other regularization methods
 
-1.6 dropout 正则化（Dropout Regularization）
+1.9 Normalizing inputs
 
-1.7 理解 dropout（Understanding Dropout）
+1.10 Vanishing / Exploding gradients
+1.11 Weight Initialization for Deep Networks Vanishing / Exploding gradients
 
-1.8 其他正则化方法（Other regularization methods）
+1.12 Numerical approximation of gradients
 
-1.9 标准化输入（Normalizing inputs）
+1.13 Gradient checking
 
-1.10 梯度消失/梯度爆炸（Vanishing / Exploding gradients）
+1.14 Gradient Checking Implementation Notes
 
-1.11 神经网络的权重初始化（Weight Initialization for Deep NetworksVanishing /Exploding gradients） 
+Week 2: Optimization algorithms
 
-1.12 梯度的数值逼近（Numerical approximation of gradients）
+2.1 Mini-batch gradient descent
 
-1.13 梯度检验（Gradient checking）
+2.2 Understanding Mini-batch gradient descent (Understanding Mini-batch gradient descent)
 
-1.14 梯度检验应用的注意事项（Gradient Checking Implementation Notes） 
+2.3 Exponentially weighted averages
 
-第二周：优化算法 (Optimization algorithms) 
+2.4 Understanding Exponentially Weighted Averages
 
-2.1 Mini-batch 梯度下降（Mini-batch gradient descent） 
+2.5 Bias correction in exponentially weighted averages
 
-2.2 理解Mini-batch 梯度下降（Understanding Mini-batch gradient descent）
+2.6 Gradient descent with momentum
 
-2.3 指数加权平均（Exponentially weighted averages）
+2.7 RMSprop - root mean square prop(RMSprop)
 
-2.4 理解指数加权平均（Understanding Exponentially weighted averages） 
+2.8 Adam optimization algorithm
 
-2.5 指数加权平均的偏差修正（Bias correction in exponentially weighted averages）
+2.9 Learning rate decay (Learning rate decay)
+2.10 The problem of local optima
 
-2.6 momentum梯度下降（Gradient descent with momentum）
+The third week of hyperparameter tuning, batch regularization and programming framework (Hyperparameter tuning, Batch Normalization and Programming Frameworks)
 
-2.7 RMSprop——root mean square prop（RMSprop）
+3.1 Tuning process
 
-2.8 Adam优化算法（Adam optimization algorithm）
+3.2 Using an appropriate scale to pick hyperparameters
 
-2.9 学习率衰减（Learning rate decay）
+3.3 Practice of hyperparameter training: Pandas vs. Caviar (Hyperparameters tuning in practice: Pandas vs. Caviar)
 
-2.10 局部最优问题（The problem of local optima）
+3.4 Normalizing activations in a network
 
-第三周超参数调试，batch正则化和程序框架（Hyperparameter tuning, Batch Normalization and Programming Frameworks)
+3.5 Fitting Batch Norm into a neural network
 
-3.1 调试处理（Tuning process） 
+3.6 Why does Batch Norm work? (Why does Batch Norm work?)
 
-3.2 为超参数选择和适合范围（Using an appropriate scale to pick hyperparameters）
+3.7 Batch Norm (Batch Norm at test time) at the time of testing
 
-3.3 超参数训练的实践：Pandas vs. Caviar（Hyperparameters tuning in practice: Pandas vs. Caviar）
+3.8 Softmax Regression
 
-3.4 网络中的正则化激活函数（Normalizing activations in a network） 
+3.9 Training a Softmax classifier (Training a softmax classifier)
 
-3.5 将 Batch Norm拟合进神经网络（Fitting Batch Norm into a neural network）
+3.10 Deep learning frameworks
 
-3.6 为什么Batch Norm奏效？（Why does Batch Norm work?）
+3.11 TensorFlow (TensorFlow)
 
-3.7 测试时的Batch Norm（Batch Norm at test time）
+Structuring Machine Learning Projects
 
-3.8 Softmax 回归（Softmax Regression）
+Week 1: Machine Learning Strategies (1) (ML Strategy (1))
 
-3.9 训练一个Softmax 分类器（Training a softmax classifier） 
+1.1 Why is the ML strategy? (Why ML Strategy)
 
-3.10 深度学习框架（Deep learning frameworks） 
+1.2 Orthogonalization
 
-3.11 TensorFlow（TensorFlow） 
+1.3 Single number evaluation metric
 
-## 第三门课 结构化机器学习项目 (Structuring Machine Learning Projects)
+1.4 Satisficing and Optimizing metric
 
-第一周：机器学习策略（1）(ML Strategy (1))
+1.5 Training set, development set, test set division (Train/dev/test distributions)
 
-1.1 为什么是ML策略？ (Why ML Strategy) 
+1.6 Size of the dev and test sets
 
-1.2 正交化(Orthogonalization) 
+1.7 When to change the development set/test set and evaluation indicators (When to change dev/test sets and metrics)
 
-1.3 单一数字评估指标(Single number evaluation metric) 
+1.8 Why is human performance? (Why human-level performance?)
 
-1.4 满足和优化指标 (Satisficing and Optimizing metric)
+1.9 Avoidable bias (Avoidable bias)
 
-1.5 训练集、开发集、测试集的划分(Train/dev/test distributions) 
+1.10 Understanding human-level performance
 
-1.6 开发集和测试集的大小 (Size of the dev and test sets) 
+1.11 Surpassing human-level performance
 
-1.7 什么时候改变开发集/测试集和评估指标(When to change dev/test sets and metrics) 
+1.12 Improve your model performance (Improving your model performance)
+Week 2: Machine Learning Strategies (2) (ML Strategy (2))
 
-1.8 为什么是人的表现 (Why human-level performance?) 
+2.1 Error analysis (Carrying out error analysis)
 
-1.9 可避免偏差(Avoidable bias) 
+2.2 Clearing the incorrectly labeled data (Cleaning up incorrectly labeled data)
 
-1.10 理解人类的表现 (Understanding human-level performance) 
+2.3 Quickly build your first system and iterate (Build your first system quickly, then iterate)
 
-1.11 超过人类的表现(Surpassing human-level performance) 
+2.4 Training and testing on different distributions
 
-1.12 改善你的模型表现 (Improving your model performance) 
+2.5 Bias and Variance with mismatched data distributions
 
-第二周：机器学习策略（2）(ML Strategy (2))
+2.6 Addressing data mismatch
 
-2.1 误差分析 (Carrying out error analysis) 
+2.7 Transfer Learning
 
-2.2 清除标注错误的数据(Cleaning up incorrectly labeled data) 
+2.8 Multi-task learning
 
-2.3 快速搭建你的第一个系统，并进行迭代(Build your first system quickly, then iterate) 
+2.9 What is end-to-end deep learning? (What is end-to-end deep learning?)
 
-2.4 在不同的分布上的训练集和测试集 (Training and testing on different distributions) 
+2.10 Whether to use end-to-end deep learning (Whether to use end-to-end deep learning)
 
-2.5 数据分布不匹配的偏差与方差分析 (Bias and Variance with mismatched data distributions) 
+## The fourth course Convolutional Neural Networks
 
-2.6 处理数据不匹配问题(Addressing data mismatch) 
+The first week of the Foundation of Convolutional Neural Networks
 
-2.7 迁移学习 (Transfer learning) 
+1.1 Computer vision
 
-2.8 多任务学习(Multi-task learning) 
+1.2 Edge detection example (Edge detection example)
 
-2.9 什么是端到端的深度学习？ (What is end-to-end deep learning?) 
+1.3 More edge detection content (More edge detection)
 
-2.10 是否使用端到端的深度学习方法 (Whether to use end-to-end deep learning) 
+1.4 Padding
 
-## 第四门课 卷积神经网络（Convolutional Neural Networks）
+1.5 Convolutional Steps (Strided Convolutions)
 
-第一周 卷积神经网络(Foundations of Convolutional Neural Networks)
+1.6 Three-dimensional convolution (Convolutions over volumes)
 
-1.1	计算机视觉（Computer vision）
+1.7 One layer of a convolutional network
 
-1.2	边缘检测示例（Edge detection example）
+1.8 Simple convolution network example
 
-1.3	更多边缘检测内容（More edge detection）
+1.9 Pooling layers
 
-1.4	Padding	
+1.10 Convolutional neural network example
 
-1.5	卷积步长（Strided convolutions）	
+1.11 Why use convolution? (Why convolutions?)
 
-1.6	三维卷积（Convolutions over volumes）	
+Week 2 Deep convolutional models: case studies
 
-1.7	单层卷积网络（One layer of a convolutional network）	
+2.1 Why do you want to conduct an instance study? (Why look at case studies?)
 
-1.8	简单卷积网络示例（A simple convolution network example）	
+2.2 Classic networks
 
-1.9	池化层（Pooling layers）	
+2.3 Residual Networks (ResNets)
 
-1.10 卷积神经网络示例（Convolutional neural network example）
+2.4 Why is the residual network useful? (Why ResNets work?)
 
-1.11 为什么使用卷积？（Why convolutions?）
+2.5 Network in the network and 1×1 convolutions (Network in Network and 1×1 convolutions)
 
-第二周 深度卷积网络：实例探究(Deep convolutional models: case studies)
+2.6 Google Inception network motivation
 
-2.1 为什么要进行实例探究？（Why look at case studies?）
+2.7 Inception network
 
-2.2 经典网络（Classic networks）
+2.8 Using open source implementations (Using open-source implementations)
 
-2.3 残差网络（Residual Networks (ResNets)）
+2.9 Transfer Learning
 
-2.4 残差网络为什么有用？（Why ResNets work?）	
+2.10 Data augmentation
 
-2.5 网络中的网络以及 1×1 卷积（Network in Network and 1×1 convolutions）
+2.11 The state of computer vision
 
-2.6 谷歌 Inception 网络简介（Inception network motivation）	
+Week 3 Target Detection
 
-2.7 Inception 网络（Inception network）	
+3.1 Target localization (Object localization)
 
-2.8 使用开源的实现方案（Using open-source implementations）	
+3.2 Landmark detection
 
-2.9 迁移学习（Transfer Learning）	
+3.3 Target detection (Object detection)
 
-2.10 数据扩充（Data augmentation）	
+3.4 Convolutional implementation of sliding windows
 
-2.11 计算机视觉现状（The state of computer vision）	
+3.5 Bounding Box predictions
 
-第三周 目标检测（Object detection）
+3.6 Intersection over union
 
-3.1 目标定位（Object localization）
-
-3.2 特征点检测（Landmark detection）
-
-3.3 目标检测（Object detection）
-
-3.4 卷积的滑动窗口实现（Convolutional implementation of sliding windows）
-
-3.5 Bounding Box预测（Bounding box predictions）
-
-3.6 交并比（Intersection over union）
-
-3.7 非极大值抑制（Non-max suppression）
+3.7 Non-maximum suppression (Non-max suppression)
 
 3.8 Anchor Boxes
 
-3.9 YOLO 算法（Putting it together: YOLO algorithm）
+3.9 YOLO algorithm (Putting it together: YOLO algorithm)
 
-3.10 候选区域（选修）（Region proposals (Optional)）
+3.10 Regions (Optional)
 
-第四周 特殊应用：人脸识别和神经风格转换（Special applications: Face recognition &Neural style transfer）
+Week 4 Special applications: Face recognition & Neural style transfer (Special applications: Face recognition & Neural style transfer)
 
-4.1 什么是人脸识别？(What is face recognition?)
+4.1 What is face recognition? (What is face recognition?)
 
-4.2 One-Shot学习（One-shot learning）
+4.2 One-shot learning (One-shot learning)
 
-4.3 Siamese 网络（Siamese network）
+4.3 Siamese network
 
-4.4 Triplet 损失（Triplet 损失）
+4.4 Triplet loss (Triplet loss)
 
-4.5 面部验证与二分类（Face verification and binary classification）
+4.5 Face verification and binary classification
 
-4.6 什么是神经风格转换？（What is neural style transfer?）
+4.6 What is a neural style conversion? (What is neural style transfer?)
 
-4.7 什么是深度卷积网络？（What are deep ConvNets learning?）
+4.7 What is a deep convolutional network? (What are deep ConvNets learning?)
 
-4.8 代价函数（Cost function）
+4.8 Cost function
 
-4.9 内容代价函数（Content cost function）
+4.9 Content cost function
 
-4.10 风格代价函数（Style cost function）
+4.10 Style cost function
 
-4.11 一维到三维推广（1D and 3D generalizations of models）
+4.11 1D and 3D generalizations of models
 
-# 第五门课 序列模型(Sequence Models)
+#第五课Sequence Models
 
-第一周 循环序列模型（Recurrent Neural Networks）
-1.1 为什么选择序列模型？（Why Sequence Models?）
+First week of the cycle sequence model (Recurrent Neural Networks)
+1.1 Why choose a sequence model? (Why Sequence Models?)
 
-1.2 数学符号（Notation）
+1.2 Mathematical Symbols (Notation)
 
-1.3 循环神经网络模型（Recurrent Neural Network Model）
+1.3 Recurrent Neural Network Model
 
-1.4 通过时间的反向传播（Backpropagation through time）
+1.4 Backpropagation through time
 
-1.5 不同类型的循环神经网络（Different types of RNNs）
+1.5 Different types of different types of RNNs
 
-1.6 语言模型和序列生成（Language model and sequence generation）
+1.6 Language model and sequence generation (Language model and sequence generation)
 
-1.7 对新序列采样（Sampling novel sequences）
+1.7 Sampling novel sequences
 
-1.8 循环神经网络的梯度消失（Vanishing gradients with RNNs）
+1.8 Vain gradients disappeared (Vanishing gradients with RNNs)
 
-1.9 GRU单元（Gated Recurrent Unit（GRU））
+1.9 GRU unit (Gated Recurrent Unit (GRU))
 
-1.10 长短期记忆（LSTM（long short term memory）unit）
+1.10 long short term memory unit (LSTM (long short term memory) unit)
 
-1.11 双向循环神经网络（Bidirectional RNN）
+1.11 Bidirectional RNN (Bidirectional RNN)
 
-1.12 深层循环神经网络（Deep RNNs）
+1.12 Deep Loop Neural Networks (Deep RNNs)
 
-第二周 自然语言处理与词嵌入（Natural Language Processing and Word Embeddings）
+Week 2 Natural Language Processing and Word Embeddings
 
-2.1 词汇表征（Word Representation）
+2.1 Word Representation
 
-2.2 使用词嵌入（Using Word Embeddings）
+2.2 Using Word Embeddings
 
-2.3 词嵌入的特性（Properties of Word Embeddings）
+2.3 Properties of Word Embeddings
 
-2.4 嵌入矩阵（Embedding Matrix）
+2.4 Embedding Matrix
 
-2.5 学习词嵌入（Learning Word Embeddings）
+2.5 Learning Word Embeddings
 
 2.6 Word2Vec
 
-2.7 负采样（Negative Sampling）
+2.7 Negative Sampling
 
-2.8 GloVe 词向量（GloVe Word Vectors）
+2.8 GloVe Word Vectors
 
-2.9 情绪分类（Sentiment Classification）
+2.9 Sentiment Classification
 
-2.10 词嵌入除偏（Debiasing Word Embeddings）
+2.10 Debiasing Word Embeddings
 
-第三周 序列模型和注意力机制（Sequence models & Attention mechanism）
+Week 3 Sequence models & Attention mechanism
 
-3.1 基础模型（Basic Models）
+3.1 Basic Models (Basic Models)
 
-3.2 选择最可能的句子（Picking the most likely sentence）
+3.2 Picking the most likely sentence
 
-3.3 集束搜索（Beam Search）
+3.3 Cluster Search (Beam Search)
 
-3.4 改进集束搜索（Refinements to Beam Search）
+3.4 Improved cluster search (Refinements to Beam Search)
 
-3.5 集束搜索的误差分析（Error analysis in beam search）
+3.5 Error analysis in beam search
 
-3.6 Bleu 得分（选修）（Bleu Score (optional)）
+3.6 Bleu Score (optional) (Bleu Score (optional))
 
-3.7 注意力模型直观理解（Attention Model Intuition）
+3.7 Attention Model Intuition
 
-3.8注意力模型（Attention Model）
+3.8 Attention Model
 
-3.9语音识别（Speech recognition）
+3.9 Speech recognition
 
-3.10触发字检测（Trigger Word Detection）
+3.10 Trigger Word Detection
 
-3.11结论和致谢（Conclusion and thank you）
+3.11 Conclusion and thank you (Conclusion and thank you)
 
-人工智能大师访谈
+Interview with Artificial Intelligence Master
 
-吴恩达采访 Geoffery Hinton
+Wu Enda interviews Geoffery Hinton
 
-吴恩达采访 Ian Goodfellow
+Wu Enda interviews Ian Goodfellow
+Wu Enda interview Ruslan Salakhutdinov
 
-吴恩达采访 Ruslan Salakhutdinov
+Wu Enda interviews Yoshua Bengio
 
-吴恩达采访 Yoshua Bengio
+Wu Enda Interview Lin Yuanqing
 
-吴恩达采访 林元庆
+Wu Enda Interview Pieter Abbeel
 
-吴恩达采访 Pieter Abbeel	
+Wu Enda interviews Andrej Karpathy
 
-吴恩达采访 Andrej Karpathy
+annex
 
-附件
-
-深度学习符号指南（原课程翻译）
-
+Deep Learning Symbol Guide (original course translation)
 
 
