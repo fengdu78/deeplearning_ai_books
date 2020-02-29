@@ -26,6 +26,8 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
 
+机器学习qq群：1003271085（我们有10个群，加过一个就不需要加了）
+
 微信公众号：机器学习初学者 ![gongzhong](images/gongzhong.jpg)
 知识星球：黄博的机器学习圈子![xingqiu](images/zhishixingqiu1.jpg)
 
