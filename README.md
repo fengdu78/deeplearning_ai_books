@@ -4,6 +4,8 @@
 
 https://mooc.study.163.com/university/deeplearning_ai#/c
 
+[**笔记在线阅读**](http://www.ai-start.com/dl2017)
+
 这些课程专为已有一定基础（基本的编程知识，熟悉**Python**、对机器学习有基本了解），想要尝试进入人工智能领域的计算机专业人士准备。介绍显示：“深度学习是科技业最热门的技能之一，本课程将帮你掌握深度学习。”
 
 在这5堂课中，学生将可以学习到深度学习的基础，学会构建神经网络，并用在包括吴恩达本人在内的多位业界顶尖专家指导下创建自己的机器学习项目。**Deep Learning Specialization**对卷积神经网络 (**CNN**)、递归神经网络 (**RNN**)、长短期记忆 (**LSTM**) 等深度学习常用的网络结构、工具和知识都有涉及。
@@ -24,8 +26,12 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
 
-微信公众号：机器学习初学者 ![gongzhong](/images/gongzhong.jpg)
-知识星球：黄博的机器学习圈子![xingqiu](/images/zhishixingqiu1.jpg)
+机器学习qq群：1003271085（我们有10个群，加过一个就不需要加了）
+
+微信公众号：机器学习初学者 ![gongzhong](images/gongzhong.jpg)
+知识星球：黄博的机器学习圈子![xingqiu](images/zhishixingqiu1.jpg)
+
+**注意：github下载太慢的话，关注我的公众号：“机器学习初学者”，回复“github镜像”即可下载本仓库的镜像文件，整个仓库压缩成一个iso。**
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/)
 
@@ -53,7 +59,7 @@ haiguang2000@qq.com
 
 **转载请注明出处**：https://github.com/fengdu78/deeplearning_ai_books
 
-**机器学习qq群：865189078（我们有8个群，加过一个就不需要加了）** 
+**机器学习qq群：659697409（我们有9个群，加过一个就不需要加了）** 
 
 # 深度学习笔记目录
 
