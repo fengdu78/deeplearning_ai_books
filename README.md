@@ -1,4 +1,4 @@
-**Coursera深度学习教程中文笔记**
+# Deeplearning.ai深度学习教程中文笔记
 
 课程概述
 
@@ -26,12 +26,10 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/activities)
 
-机器学习qq群：704220115（我们有11个群，加过一个就不需要加了）
+机器学习qq群：955171419（我们有13个群，加过一个就不需要加了）
 
 微信公众号：机器学习初学者 ![gongzhong](images/gongzhong.jpg)
-知识星球：黄博的机器学习圈子![xingqiu](images/zhishixingqiu1.jpg)
 
-**注意：github下载太慢的话，关注我的公众号：“机器学习初学者”，回复“github镜像”即可下载本仓库的镜像文件，整个仓库压缩成一个iso。**
 
 [我的知乎](https://www.zhihu.com/people/fengdu78/)
 
@@ -41,11 +39,7 @@ https://mooc.study.163.com/university/deeplearning_ai#/c
 
 2018-04-14
 
-**本课程视频教程地址：**<https://mooc.study.163.com/university/deeplearning_ai#/c>
-
-**有同学提供了一个离线视频的下载**：链接：https://pan.baidu.com/s/1ciq3qHo0lgoD3MLRwfeqnA 密码：0kim
-
-（该视频从www.deeplearning.ai 网站下载，因众所周知的原因，国内用户观看某些在线视频非常不容易，故一些学者一起制作了离线视频，旨在方便国内用户个人学习使用，请勿用于商业用途。视频内嵌中英文字幕，推荐使用**potplayer**播放。版权属于吴恩达老师所有，若在线视频流畅，请到官方网站观看。）
+本课程视频教程地址（B站）：https://www.bilibili.com/video/BV16r4y1Y7jv
 
 [笔记网站(适合手机阅读)](http://www.ai-start.com)
 
@@ -59,7 +53,7 @@ haiguang2000@qq.com
 
 **转载请注明出处**：https://github.com/fengdu78/deeplearning_ai_books
 
-**机器学习qq群：704220115（我们有11个群，加过一个就不需要加了，若满员这个群会有提示新群号）** 
+
 
 # 深度学习笔记目录
 
